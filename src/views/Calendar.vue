@@ -19,30 +19,18 @@ export default {
   },
   data() {
     return {
-      heroes: {
-        "???": {
-          name: "???"
-        },
-        "Fjorm": {
-          name: "Fjorm",
-          season: "Water"
-        },
-        "Gunnthra": {
-          name: "Gunnthra",
-          season: "Wind"
-        }
-      },
-      banners: [
-        {
-          title: "August 2020",
-          heroes: ["Fjorm", "???"]
-        },
-        {
-          title: "September 2020",
-          heroes: ["Fjorm", "Gunnthra"]
-        }
-      ]
+      heroes: {},
+      banners: []
     }
+  },
+  async created() {
+    fetch("https://api.jsonbin.io/b/5f313b621823333f8f20ef64")
+      .then(res => res.json())
+      .then(data => this.heroes = data);
+
+    fetch("https://api.jsonbin.io/b/5f313b4b1823333f8f20ef5a")
+      .then(res => res.json())
+      .then(data => this.banners = data);
   }
 }
 </script>
