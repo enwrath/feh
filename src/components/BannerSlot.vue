@@ -1,6 +1,6 @@
 <template>
-  <div>
-    {{hero.name}} * {{hero.season}}
+  <div v-bind:class="hero.color">
+    {{hero.name}}
 
   </div>
 </template>
@@ -16,4 +16,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.Red {
+  background-color: red;
+}
+.Blue {
+  background-color: blue;
+}
+.Green {
+  background-color: green;
+}
+.Colorless {
+  background-color: gray;
+}
 </style>

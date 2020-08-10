@@ -1,8 +1,12 @@
 <template>
   <div>
     {{banner.title}}
-    <div v-bind:key="hero" v-for="hero in banner.heroes">
-      <BannerSlot v-bind:hero="heroes[hero]" />
+    <div class="bannerHeroes">
+
+      <div v-bind:key="hero" v-for="hero in banner.heroes">
+        <BannerSlot v-bind:hero="heroes[hero]" />
+      </div>
+
     </div>
   </div>
 </template>
@@ -24,4 +28,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.bannerHeroes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 </style>
