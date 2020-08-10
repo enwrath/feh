@@ -1,13 +1,28 @@
 {
-  "???": {
-    "name": "???"
+  "RED": {
+    "name": "Unknown red",
+    "color": "Red"
+  },
+  "BLUE": {
+    "name": "Unknown blue",
+    "color": "Blue"
+  },
+  "GREEN": {
+    "name": "Unknown green",
+    "color": "Green"
+  },
+  "COLORLESS": {
+    "name": "Unknown colorless",
+    "color": "Colorless"
   },
   "Fjorm": {
     "name": "Fjorm",
-    "season": "Water"
+    "season": "Water",
+    "color": "Blue"
   },
   "Gunnthra": {
     "name": "Gunnthra",
-    "season": "Wind"
+    "season": "Wind",
+    "color": "Green"
   }
 }

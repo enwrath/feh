@@ -28,11 +28,11 @@ export default {
     }
   },
   async created() {
-    fetch("https://api.jsonbin.io/b/5f313b621823333f8f20ef64")
+    fetch("https://api.jsonbin.io/b/5f313b621823333f8f20ef64/latest")
       .then(res => res.json())
       .then(data => {this.heroes = data; this.loadingHeroes = false;});
 
-    fetch("https://api.jsonbin.io/b/5f313b4b1823333f8f20ef5a")
+    fetch("https://api.jsonbin.io/b/5f313b4b1823333f8f20ef5a/latest")
       .then(res => res.json())
       .then(data => {this.banners = data; this.loadingBanners = false;});
   }
