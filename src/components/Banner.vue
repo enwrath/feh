@@ -1,8 +1,8 @@
 <template>
   <div>
     {{banner.title}}
-    <div v-bind:key="hero.name" v-for="hero in banner.heroes">
-      <BannerSlot v-bind:hero="hero" />
+    <div v-bind:key="hero" v-for="hero in banner.heroes">
+      <BannerSlot v-bind:hero="heroes[hero]" />
     </div>
   </div>
 </template>
@@ -16,7 +16,8 @@ export default {
     BannerSlot
   },
   props: {
-    banner: {}
+    banner: {},
+    heroes: {}
   }
 }
 </script>

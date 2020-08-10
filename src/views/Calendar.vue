@@ -2,7 +2,7 @@
   <div>
     <h1>Upcoming legendary/mythic banners</h1>
     <div v-bind:key="banner.title" v-for="banner in banners">
-      <Banner v-bind:banner="banner" />
+      <Banner v-bind:banner="banner" v-bind:heroes="heroes" />
     </div>
   </div>
 </template>
@@ -43,16 +43,6 @@ export default {
         }
       ]
     }
-  },
-  created() {
-    this.banners.forEach(obj => {
-      for (const prop in obj) {
-          if (prop === 'heroes') {
-            obj[prop] = obj[prop].map(h => this.heroes[h]);
-            console.log(obj[prop]);
-          }
-      }
-    });
   }
 }
 </script>
