@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{banner.title}}
+    <h2>{{banner.title}}</h2>
     <div class="bannerHeroes">
 
       <div v-bind:key="hero" v-for="hero in banner.heroes">
@@ -32,5 +32,8 @@ export default {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.bannerHeroes > div {
+  width: 15%;
 }
 </style>
