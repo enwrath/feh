@@ -1,5 +1,7 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <p>
+      For feedback, mistakes, suggestions, lawsuits etc. please contact me via Discord Enwrath#8649.
+    </p>
   </div>
 </template>
