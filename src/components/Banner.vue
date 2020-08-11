@@ -32,6 +32,7 @@ export default {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .bannerHeroes > div {
   width: 15%;
