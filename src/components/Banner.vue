@@ -2,8 +2,7 @@
   <div>
     <h2>{{banner.title}}</h2>
     <div class="bannerHeroes">
-
-      <div v-bind:key="hero" v-for="hero in banner.heroes">
+      <div v-bind:key="`${i}-${hero}`" v-for="(hero, i) in banner.heroes">
         <BannerSlot v-bind:hero="heroes[hero]" />
       </div>
 
