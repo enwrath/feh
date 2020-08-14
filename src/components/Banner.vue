@@ -33,6 +33,6 @@ export default {
   background-color: #27272775;
 }
 .bannerHeroes > div {
-  width: 18rem;
+  min-width: 15%;
 }
 </style>
