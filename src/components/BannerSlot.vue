@@ -34,7 +34,6 @@ export default {
 }
 .bannerHero {
   display: inline-block;
-  margin: 0.5rem;
 }
 img {
   max-width: 100%;

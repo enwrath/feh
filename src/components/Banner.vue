@@ -34,5 +34,6 @@ export default {
 }
 .bannerHeroes > div {
   min-width: 15%;
+  max-width: 30%;
 }
 </style>
