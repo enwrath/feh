@@ -1,0 +1,198 @@
+{
+  "RED": {
+    "name": "Red",
+    "color": "Red"
+  },
+  "BLUE": {
+    "name": "Blue",
+    "color": "Blue"
+  },
+  "GREEN": {
+    "name": "Green",
+    "color": "Green"
+  },
+  "COLORLESS": {
+    "name": "Colorless",
+    "color": "Colorless"
+  },
+  "Alm": {
+    "name": "Alm",
+    "season": "Earth",
+    "color": "Colorless"
+  },
+  "Altina": {
+    "name": "Altina",
+    "season": "Astra",
+    "color": "Red"
+  },
+  "Azura": {
+    "name": "Azurta",
+    "season": "Water",
+    "color": "Blue"
+  },
+  "Bramimon": {
+    "name": "Bramimond",
+    "season": "Dark",
+    "color": "Colorless"
+  },
+  "Celica": {
+    "name": "Celica",
+    "season": "Fire",
+    "color": "Green"
+  },
+  "Chrom": {
+    "name": "Chrom",
+    "season": "Water",
+    "color": "Blue"
+  },
+  "Duma": {
+    "name": "Duma",
+    "season": "Anima",
+    "color": "Colorless"
+  },
+  "Edelgard": {
+    "name": "Edelgard",
+    "season": "Fire",
+    "color": "Green"
+  },
+  "Eir": {
+    "name": "Eir",
+    "season": "Light",
+    "color": "Colorless"
+  },
+  "Eirika": {
+    "name": "Eirika",
+    "season": "Water",
+    "color": "Red"
+  },
+  "Eliwood": {
+    "name": "Eliwood",
+    "season": "Wind",
+    "color": "Red"
+  },
+  "Ephraim": {
+    "name": "Ephraim",
+    "season": "Fire",
+    "color": "Blue"
+  },
+  "Fjorm": {
+    "name": "Fjorm",
+    "season": "Water",
+    "color": "Blue"
+  },
+  "Gunnthra": {
+    "name": "Gunnthra",
+    "season": "Wind",
+    "color": "Green"
+  },
+  "Hector": {
+    "name": "Hector",
+    "season": "Fire",
+    "color": "Green"
+  },
+  "Hel": {
+    "name": "Hel",
+    "season": "Dark",
+    "color": "Green"
+  },
+  "Hrid": {
+    "name": "Hrid",
+    "season": "Wind",
+    "color": "Red"
+  },
+  "Ike": {
+    "name": "Ike",
+    "season": "Earth",
+    "color": "Red"
+  },
+  "Julia": {
+    "name": "Julia",
+    "season": "Earth",
+    "color": "Blue"
+  },
+  "Leif": {
+    "name": "Leif",
+    "season": "Water",
+    "color": "Colorless"
+  },
+  "Lif": {
+    "name": "Lif",
+    "season": "Anima",
+    "color": "Red"
+  },
+  "Lucina": {
+    "name": "Lucina",
+    "season": "Wind",
+    "color": "Blue"
+  },
+  "Lyn": {
+    "name": "Lyn",
+    "season": "Wind",
+    "color": "Green"
+  },
+  "Marth": {
+    "name": "Marth",
+    "season": "Fire",
+    "color": "Red"
+  },
+  "Mila": {
+    "name": "Mila",
+    "season": "Light",
+    "color": "Colorless"
+  },
+  "Mirabilis": {
+    "name": "Mirabilis",
+    "season": "Anima",
+    "color": "Red"
+  },
+  "Naga": {
+    "name": "Naga",
+    "season": "Astra",
+    "color": "Blue"
+  },
+  "Peony": {
+    "name": "Peony",
+    "season": "Light",
+    "color": "Blue"
+  },
+  "Robin": {
+    "name": "Robin",
+    "season": "Earth",
+    "color": "Colorless"
+  },
+  "Roy": {
+    "name": "Roy",
+    "season": "Fire",
+    "color": "Red"
+  },
+  "Ryoma": {
+    "name": "Ryoma",
+    "season": "Water",
+    "color": "Red"
+  },
+  "Seliph": {
+    "name": "Seliph",
+    "season": "Earth",
+    "color": "Red"
+  },
+  "Sothis": {
+    "name": "Sothis",
+    "season": "Dark",
+    "color": "Red"
+  },
+  "Thrasir": {
+    "name": "Thrasir",
+    "season": "Anima",
+    "color": "Green"
+  },
+  "Tiki": {
+    "name": "Tiki",
+    "season": "Earth",
+    "color": "Blue"
+  },
+  "Yune": {
+    "name": "Yune",
+    "season": "Dark",
+    "color": "Green"
+  }
+}
