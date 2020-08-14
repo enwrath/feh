@@ -2,9 +2,7 @@
   <div>
     <h2>{{banner.title}}</h2>
     <div class="bannerHeroes">
-      <div v-bind:key="`${i}-${hero}`" v-for="(hero, i) in banner.heroes">
-        <BannerSlot v-bind:hero="heroes[hero]" />
-      </div>
+      <BannerSlot v-bind:key="`${i}-${hero}`" v-for="(hero, i) in banner.heroes" v-bind:hero="heroes[hero]" />
 
     </div>
   </div>
@@ -32,8 +30,9 @@ export default {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: #27272775;
 }
 .bannerHeroes > div {
-  width: 15%;
+  width: 18rem;
 }
 </style>
