@@ -1,6 +1,6 @@
 <template>
   <div class="bannerHero" v-bind:class="hero.color" >
-    <v-popover offset="0">
+    <v-popover offset="0" :disabled="!('season' in hero)">
       <!-- This will be the popover target (for the events and position) -->
       <img v-bind:src="`./images/${hero.name}.webp`" />
 
