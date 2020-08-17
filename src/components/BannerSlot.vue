@@ -1,12 +1,26 @@
 <template>
   <div class="bannerHero" v-bind:class="hero.color" >
-    <img v-bind:src="`./images/${hero.name}.webp`"/>
+    <v-popover offset="0">
+      <!-- This will be the popover target (for the events and position) -->
+      <img v-bind:src="`./images/${hero.name}.webp`" />
+
+      <!-- This will be the content of the popover -->
+      <template slot="popover">
+        <HeroDetails v-bind:hero="hero" />
+      </template>
+    </v-popover>
+
   </div>
 </template>
 
 <script>
+import HeroDetails from '@/components/HeroDetails.vue'
+
 export default {
   name: 'BannerSlot',
+  components: {
+    HeroDetails
+  },
   props: {
     hero: {}
   }
@@ -37,5 +51,6 @@ img {
   background-color: #ffffff69;
   border-style: solid;
   border-width: thick;
+  box-sizing: border-box
 }
 </style>
