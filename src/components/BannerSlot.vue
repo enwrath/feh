@@ -1,11 +1,6 @@
 <template>
   <div class="bannerHero" v-bind:class="hero.color" >
-    <div>
-
-      <p>{{hero.name}}</p>
-      <img v-bind:src="`./images/${hero.name}.png`"/>
-    </div>
-
+    <img v-bind:src="`./images/${hero.name}.webp`"/>
   </div>
 </template>
 
@@ -34,13 +29,13 @@ export default {
 }
 .bannerHero {
   display: inline-block;
+  padding: 0.5em 0;
 }
 img {
   max-width: 100%;
   height: auto;
   background-color: #ffffff69;
-}
-p {
-  font-weight: bold;
+  border-style: solid;
+  border-width: thick;
 }
 </style>

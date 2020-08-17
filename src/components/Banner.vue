@@ -30,10 +30,14 @@ export default {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #27272775;
 }
 .bannerHeroes > div {
-  min-width: 15%;
-  max-width: 30%;
+  width: 158px;
+  flex-basis: 15%;
+}
+@media only screen and (max-width: 1000px) {
+  .bannerHeroes > div {
+    flex-basis: 30%;
+  }
 }
 </style>
