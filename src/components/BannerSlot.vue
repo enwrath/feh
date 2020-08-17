@@ -51,6 +51,6 @@ img {
   background-color: #ffffff69;
   border-style: solid;
   border-width: thick;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 </style>

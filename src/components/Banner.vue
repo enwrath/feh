@@ -30,6 +30,8 @@ export default {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1500px;
+  margin:auto;
 }
 .bannerHeroes > div {
   width: 158px;
