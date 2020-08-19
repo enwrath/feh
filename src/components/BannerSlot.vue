@@ -1,14 +1,8 @@
 <template>
-  <div class="bannerHero" v-bind:class="hero.color" >
-    <v-popover :disabled="!('season' in hero)" placement="auto">
-      <!-- This will be the popover target (for the events and position) -->
-      <img v-bind:src="`./images/${hero.name}.webp`" />
+  <div class="bannerHero" v-bind:class="hero.color" v-on:click="showDetails = !showDetails" >
+    <img v-if="!showDetails || !('season' in hero)" v-bind:src="`./images/${hero.name}.webp`" />
 
-      <!-- This will be the content of the popover -->
-      <template slot="popover">
-        <HeroDetails v-bind:hero="hero" />
-      </template>
-    </v-popover>
+    <HeroDetails v-if="showDetails && 'season' in hero" v-bind:hero="hero" />
 
   </div>
 </template>
@@ -23,6 +17,11 @@ export default {
   },
   props: {
     hero: {}
+  },
+  data() {
+    return {
+      showDetails: false
+    }
   }
 }
 </script>
