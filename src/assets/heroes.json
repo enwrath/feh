@@ -18,181 +18,475 @@
   "Alm": {
     "name": "Alm",
     "season": "Earth",
-    "color": "Colorless"
+    "color": "Colorless",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 175",
+    "skills": [
+      "Darting Blow 4",
+      "Null Follow-Up 3",
+      "Odd Atk Wave 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Alm:_Saint-King",
+    "bst": 162
   },
   "Altina": {
     "name": "Altina",
     "season": "Astra",
-    "color": "Red"
+    "color": "Red",
+    "boost": "HP+5 Atk+3",
+    "skills": [
+      "Vantage 3",
+      "Atk/Def Oath 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Altina:_Dawn%27s_Trueblade",
+    "bst": 166
   },
   "Azura": {
     "name": "Azura",
     "season": "Water",
-    "color": "Blue"
+    "color": "Blue",
+    "boost": "HP+3 Res+4",
+    "skills": [
+      "B Duel Flying 3",
+      "Aerobatics 3",
+      "Atk Tactic 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Azura:_Vallite_Songstress",
+    "bst": 139
   },
   "Bramimond": {
     "name": "Bramimond",
     "season": "Dark",
-    "color": "Colorless"
+    "color": "Colorless",
+    "boost": "HP+5 Atk+3",
+    "skills": [
+      "Luna",
+      "Atk/Def Push 4",
+      "Lull Atk/Res 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Bramimond:_The_Enigma",
+    "bst": 162
   },
   "Celica": {
     "name": "Celica",
     "season": "Fire",
-    "color": "Green"
+    "color": "Green",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 175",
+    "skills": [
+      "Miracle",
+      "Swift Sparrow 3",
+      "Atk/Spd Oath 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Celica:_Queen_of_Valentia",
+    "bst": 162
   },
   "Chrom": {
     "name": "Chrom",
     "season": "Water",
-    "color": "Blue"
+    "color": "Blue",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 180",
+    "skills": [
+      "Reposition",
+      "Close Counter",
+      "Lull Atk/Def 3",
+      "Rouse Def/Res 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Chrom:_Crowned_Exalt",
+    "bst": 168
   },
   "Duma": {
     "name": "Duma",
     "season": "Anima",
-    "color": "Colorless"
+    "color": "Colorless",
+    "boost": "HP+5 Atk+3",
+    "skills": [
+      "Draconic Aura",
+      "Def/Res Solo 3",
+      "Bold Fighter 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Duma:_God_of_Strength",
+    "bst": 174
   },
   "Edelgard": {
     "name": "Edelgard",
     "season": "Fire",
-    "color": "Green"
+    "color": "Green",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 180",
+    "skills": [
+      "Bonfire",
+      "Atk/Res Solo 3",
+      "Armored Stride 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Edelgard:_Flame_Emperor",
+    "bst": 179
   },
   "Eir": {
     "name": "Eir",
     "season": "Light",
-    "color": "Colorless"
+    "color": "Colorless",
+    "boost": "HP+5 Res+5",
+    "skills": [
+      "Iceberg",
+      "Swift Sparrow 2",
+      "Mystic Boost 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Eir:_Merciful_Death",
+    "bst": 149
   },
   "Eirika": {
     "name": "Eirika",
     "season": "Water",
-    "color": "Red"
+    "color": "Red",
+    "boost": "HP+3 Atk+2",
+    "skills": [
+      "Moonbow",
+      "Atk/Spd Solo 3",
+      "Odd Def Wave 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Eirika:_Graceful_Resolve",
+    "bst": 156
   },
   "Eliwood": {
     "name": "Eliwood",
     "season": "Wind",
-    "color": "Red"
+    "color": "Red",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 175",
+    "skills": [
+      "Rally Spd/Res+",
+      "Death Blow 4",
+      "Chill Atk 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Eliwood:_Blazing_Knight",
+    "bst": 156
   },
   "Ephraim": {
     "name": "Ephraim",
     "season": "Fire",
-    "color": "Blue"
+    "color": "Blue",
+    "boost": "HP+3 Def+4",
+    "skills": [
+      "Sol",
+      "Sturdy Stance 2",
+      "Fortify Def 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Ephraim:_Legendary_Lord",
+    "bst": 156
   },
   "Fjorm": {
     "name": "Fjorm",
     "season": "Water",
-    "color": "Blue"
+    "color": "Blue",
+    "boost": "HP+3 Spd+3",
+    "skills": [
+      "Atk/Def Bond 3",
+      "Shield Pulse 3",
+      "Drive Atk 2"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Fjorm:_Princess_of_Ice",
+    "bst": 164
   },
   "Gunnthra": {
     "name": "Gunnthra",
     "season": "Wind",
-    "color": "Green"
+    "color": "Green",
+    "boost": "HP+3 Res+4",
+    "skills": [
+      "Glacies",
+      "Fortress Res 3",
+      "Res Ploy 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Gunnthr%C3%A1:_Voice_of_Dreams",
+    "bst": 145
   },
   "Hector": {
     "name": "Hector",
     "season": "Fire",
-    "color": "Green"
+    "color": "Green",
+    "boost": "HP+3 Atk+2",
+    "skills": [
+      "Draconic Aura",
+      "Distant Counter",
+      "Vengeful Fighter"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Hector:_Marquess_of_Ostia",
+    "bst": 174
   },
   "Hel": {
     "name": "Hel",
     "season": "Dark",
-    "color": "Green"
+    "color": "Green",
+    "boost": "HP+5 Def+5",
+    "skills": [
+      "Luna",
+      "Distant Counter",
+      "Guard Bearing 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Hel:_Death_Sovereign",
+    "bst": 167
   },
   "Hrid": {
     "name": "Hrid",
     "season": "Wind",
-    "color": "Red"
+    "color": "Red",
+    "boost": "HP+3 Def+4",
+    "skills": [
+      "Moonbow",
+      "Distant Counter",
+      "Atk Smoke 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Hr%C3%ADd:_Icy_Blade",
+    "bst": 157
   },
   "Ike": {
     "name": "Ike",
     "season": "Earth",
-    "color": "Red"
+    "color": "Red",
+    "boost": "HP+3 Atk+2",
+    "skills": [
+      "Warding Breath",
+      "Seal Atk/Def 2",
+      "Def Tactic 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Ike:_Vanguard_Legend",
+    "bst": 163
   },
   "Julia": {
     "name": "Julia",
     "season": "Earth",
-    "color": "Blue"
+    "color": "Blue",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 175",
+    "skills": [
+      "Dragon Fang",
+      "Mirror Impact",
+      "Atk/Res Oath 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Julia:_Crusader_of_Light",
+    "bst": 162
   },
   "Leif": {
     "name": "Leif",
     "season": "Water",
-    "color": "Colorless"
+    "color": "Colorless",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 175",
+    "skills": [
+      "Atk/Res Push 4",
+      "Def Smoke 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Leif:_Unifier_of_Thracia",
+    "bst": 156
   },
   "Lif": {
     "name": "Lif",
     "season": "Anima",
-    "color": "Red"
+    "color": "Red",
+    "boost": "HP+5 Spd+4",
+    "skills": [
+      "Distant Counter",
+      "Time's Pulse 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/L%C3%ADf:_Lethal_Swordsman",
+    "bst": 173
   },
   "Lucina": {
     "name": "Lucina",
     "season": "Wind",
-    "color": "Blue"
+    "color": "Blue",
+    "boost": "HP+3 Spd+3",
+    "skills": [
+      "Swift Sparrow 2",
+      "Wings of Mercy 3",
+      "Distant Guard 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Lucina:_Glorious_Archer",
+    "bst": 150
   },
   "Lyn": {
     "name": "Lyn",
     "season": "Wind",
-    "color": "Green"
+    "color": "Green",
+    "boost": "HP+3 Atk+2",
+    "skills": [
+      "Rally Def/Res",
+      "Desperation 3",
+      "Spd Tactic 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Lyn:_Lady_of_the_Wind",
+    "bst": 151
   },
   "Marth": {
     "name": "Marth",
     "season": "Fire",
-    "color": "Red"
+    "color": "Red",
+    "boost": "HP+3 Res+4",
+    "skills": [
+      "Atk/Spd Bond 3",
+      "Infantry Flash 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Marth:_Hero-King",
+    "bst": 163
   },
   "Mila": {
     "name": "Mila",
     "season": "Light",
-    "color": "Colorless"
+    "color": "Colorless",
+    "boost": "HP+5 Def+5",
+    "skills": [
+      "Rally Def/Res+",
+      "Bracing Stance 3",
+      "Sabotage Atk 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Mila:_Goddess_of_Love",
+    "bst": 172
   },
   "Mirabilis": {
     "name": "Mirabilis",
     "season": "Anima",
-    "color": "Red"
+    "color": "Red",
+    "boost": "HP+5 Res+5",
+    "skills": [
+      "Fort. Def/Res 3",
+      "Sabotage Def 3",
+      "Def/Res Gap 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Mirabilis:_Daydream",
+    "bst": 157
   },
   "Naga": {
     "name": "Naga",
     "season": "Astra",
-    "color": "Blue"
+    "color": "Blue",
+    "boost": "HP+5 Def+5",
+    "skills": [
+      "Luna",
+      "AR-O Atk/Spd 3",
+      "Chill Spd 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Naga:_Dragon_Divinity",
+    "bst": 162
   },
   "Peony": {
     "name": "Peony",
     "season": "Light",
-    "color": "Blue"
+    "color": "Blue",
+    "boost": "HP+5 Spd+4",
+    "skills": [
+      "B Duel Flying 3",
+      "Aerobatics 3",
+      "Fortify Res 4"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Peony:_Sweet_Dream",
+    "bst": 145
   },
   "Robin": {
     "name": "Robin",
     "season": "Earth",
-    "color": "Colorless"
+    "color": "Colorless",
+    "boost": "HP+3 Spd+3",
+    "skills": [
+      "Bonfire",
+      "Cancel Affinity 3",
+      "Res Smoke 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Robin:_Fell_Vessel",
+    "bst": 162
   },
   "Roy": {
     "name": "Roy",
     "season": "Fire",
-    "color": "Red"
+    "color": "Red",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 175",
+    "skills": [
+      "Dragon Fang",
+      "Bonus Doubler 3",
+      "Renewal 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Roy:_Blazing_Lion",
+    "bst": 169
   },
   "Ryoma": {
     "name": "Ryoma",
     "season": "Water",
-    "color": "Red"
+    "color": "Red",
+    "boost": "HP+3 Def+4",
+    "skills": [
+      "Glimmer",
+      "Kestrel Stance 2",
+      "Guidance 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Ryoma:_Supreme_Samurai",
+    "bst": 162
   },
   "Seliph": {
     "name": "Seliph",
     "season": "Earth",
-    "color": "Red"
+    "color": "Red",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 180",
+    "skills": [
+      "Ignis",
+      "Distant Counter",
+      "Joint Hone Def"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Seliph:_Scion_of_Light",
+    "bst": 162
   },
   "Sothis": {
     "name": "Sothis",
     "season": "Dark",
-    "color": "Red"
+    "color": "Red",
+    "boost": "HP+5 Res+5",
+    "skills": [
+      "Atk/Spd Solo 3",
+      "Wrath 3",
+      "Time's Pulse 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Sothis:_Girl_on_the_Throne",
+    "bst": 173
   },
   "Thrasir": {
     "name": "Thrasir",
     "season": "Anima",
-    "color": "Green"
+    "color": "Green",
+    "boost": "HP+5 Def+5",
+    "skills": [
+      "Moonbow",
+      "Flashing Blade 4",
+      "Panic Smoke 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Thrasir:_Omnicidal_Witch",
+    "bst": 162
   },
   "Tiki": {
     "name": "Tiki",
     "season": "Earth",
-    "color": "Blue"
+    "color": "Blue",
+    "boost": "HP+3 Def+4",
+    "skills": [
+      "Moonbow",
+      "Fierce Breath",
+      "Bold Fighter 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Tiki:_Legendary_Dragon",
+    "bst": 180
   },
   "Yune": {
     "name": "Yune",
     "season": "Dark",
-    "color": "Green"
+    "color": "Green",
+    "boost": "HP+5 Spd+4",
+    "skills": [
+      "Glacies",
+      "Atk/Res Bond 3",
+      "Sabotage Res 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Yune:_Chaos_Goddess",
+    "bst": 150
   }
 }
