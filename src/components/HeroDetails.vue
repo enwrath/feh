@@ -4,7 +4,8 @@
       <img v-bind:src="`./images/${hero.name}.webp`" v-bind:class="hero.color" />
       <br />
       <p>{{ hero.name }} - {{ hero.season }}</p>
-      <p>Blessing: xHP yStat</p>
+      <p>Boost: xHP yStat</p>
+      <p>Pair Up. Duel 175</p>
     </div>
     <div class="heroSkills">
       <p>
