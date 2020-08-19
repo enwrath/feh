@@ -1,18 +1,15 @@
 <template>
   <div class="mainDiv">
     <div>
-      <img v-bind:src="`./images/${hero.name}.webp`" v-bind:class="hero.color" />
-      <br />
-      <p>{{ hero.name }} - {{ hero.season }}</p>
-      <p>Boost: xHP yStat</p>
-      <p>Pair Up. Duel 175</p>
+      <p><a :href="hero.gamepedia">{{ hero.name }}</a></p>
+      <p>{{ hero.season }} | {{ hero.bst }} BST</p>
+      <p>Boost: {{ hero.boost }}</p>
+      <p>{{ hero.effect }}</p>
     </div>
     <div class="heroSkills">
-      <p>
-        Life and death XIV: Terror from deep
-      </p>
-      <p>
-        B Skill
+      <p>Inheritable skills:</p>
+      <p v-for="skill in hero.skills" :key="skill">
+        {{ skill }}
       </p>
     </div>
   </div>
@@ -31,35 +28,23 @@ export default {
 <style scoped>
 .mainDiv {
   display: flex;
-  flex-direction: row;
-}
-.mainDiv > div {
-  flex-basis: 50%;
-}
-div {
-  background-color: white;
+  flex-wrap: wrap;
+  background-color: #dedede;
   border-style: solid;
   border-width: thin;
   box-sizing: border-box;
-  text-align: center;
+  border-radius: 1em;
 }
-img {
-  max-width: 100%;
-  height: auto;
-  border-style: solid;
-  border-width: thick;
+.mainDiv > div {
+  padding: 10px;
   box-sizing: border-box;
 }
-.Red {
-  background-color: #f78484;
+.mainDiv > :first-child {
+  border-right-style: solid;
+  border-width: thin;
 }
-.Blue {
-  background-color: #afd5ff;
-}
-.Green {
-  background-color: #94f194;
-}
-.Colorless {
-  background-color: #8080807a;
+p:first-of-type {
+  text-align: center;
+  font-weight: bold;
 }
 </style>
