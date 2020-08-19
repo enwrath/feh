@@ -40,6 +40,13 @@ export default {
 @media only screen and (max-width: 1000px) {
   .bannerHeroes > div {
     flex-basis: 30%;
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .bannerHeroes > div {
+    flex-basis: 30%;
+    font-size: x-small;
   }
 }
 </style>
