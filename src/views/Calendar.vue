@@ -1,8 +1,10 @@
 <template>
   <div>
     <h1>Upcoming legendary/mythic banners</h1>
-    <div v-bind:key="banner.title" v-for="banner in banners">
-      <Banner v-bind:banner="banner" v-bind:heroes="heroes" />
+    <div class="bannerList">
+      <div v-bind:key="banner.title" v-for="banner in banners">
+        <Banner v-bind:banner="banner" v-bind:heroes="heroes" />
+      </div>
     </div>
   </div>
 </template>
@@ -27,3 +29,16 @@ export default {
   }
 }
 </script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.bannerList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.bannerList > div {
+  margin: auto;
+  background-color: #b5b5b5;
+}
+</style>
