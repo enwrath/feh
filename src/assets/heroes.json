@@ -35,7 +35,6 @@
     "color": "Red",
     "boost": "HP+5 Atk+3",
     "skills": [
-      "Vantage 3",
       "Atk/Def Oath 3"
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Altina:_Dawn%27s_Trueblade",
@@ -60,7 +59,6 @@
     "color": "Colorless",
     "boost": "HP+5 Atk+3",
     "skills": [
-      "Luna",
       "Atk/Def Push 4",
       "Lull Atk/Res 3"
     ],
@@ -74,7 +72,6 @@
     "boost": "HP+3",
     "effect": "Pair Up | Duel 175",
     "skills": [
-      "Miracle",
       "Swift Sparrow 3",
       "Atk/Spd Oath 3"
     ],
@@ -88,7 +85,6 @@
     "boost": "HP+3",
     "effect": "Pair Up | Duel 180",
     "skills": [
-      "Reposition",
       "Close Counter",
       "Lull Atk/Def 3",
       "Rouse Def/Res 3"
@@ -102,7 +98,6 @@
     "color": "Colorless",
     "boost": "HP+5 Atk+3",
     "skills": [
-      "Draconic Aura",
       "Def/Res Solo 3",
       "Bold Fighter 3"
     ],
@@ -116,7 +111,6 @@
     "boost": "HP+3",
     "effect": "Pair Up | Duel 180",
     "skills": [
-      "Bonfire",
       "Atk/Res Solo 3",
       "Armored Stride 3"
     ],
@@ -129,7 +123,6 @@
     "color": "Colorless",
     "boost": "HP+5 Res+5",
     "skills": [
-      "Iceberg",
       "Swift Sparrow 2",
       "Mystic Boost 3"
     ],
@@ -142,7 +135,6 @@
     "color": "Red",
     "boost": "HP+3 Atk+2",
     "skills": [
-      "Moonbow",
       "Atk/Spd Solo 3",
       "Odd Def Wave 3"
     ],
@@ -169,7 +161,6 @@
     "color": "Blue",
     "boost": "HP+3 Def+4",
     "skills": [
-      "Sol",
       "Sturdy Stance 2",
       "Fortify Def 3"
     ],
@@ -195,7 +186,6 @@
     "color": "Green",
     "boost": "HP+3 Res+4",
     "skills": [
-      "Glacies",
       "Fortress Res 3",
       "Res Ploy 3"
     ],
@@ -208,7 +198,6 @@
     "color": "Green",
     "boost": "HP+3 Atk+2",
     "skills": [
-      "Draconic Aura",
       "Distant Counter",
       "Vengeful Fighter"
     ],
@@ -221,7 +210,6 @@
     "color": "Green",
     "boost": "HP+5 Def+5",
     "skills": [
-      "Luna",
       "Distant Counter",
       "Guard Bearing 3"
     ],
@@ -234,7 +222,6 @@
     "color": "Red",
     "boost": "HP+3 Def+4",
     "skills": [
-      "Moonbow",
       "Distant Counter",
       "Atk Smoke 3"
     ],
@@ -261,7 +248,6 @@
     "boost": "HP+3",
     "effect": "Pair Up | Duel 175",
     "skills": [
-      "Dragon Fang",
       "Mirror Impact",
       "Atk/Res Oath 3"
     ],
@@ -312,7 +298,6 @@
     "color": "Green",
     "boost": "HP+3 Atk+2",
     "skills": [
-      "Rally Def/Res",
       "Desperation 3",
       "Spd Tactic 3"
     ],
@@ -363,7 +348,6 @@
     "color": "Blue",
     "boost": "HP+5 Def+5",
     "skills": [
-      "Luna",
       "AR-O Atk/Spd 3",
       "Chill Spd 3"
     ],
@@ -389,7 +373,6 @@
     "color": "Colorless",
     "boost": "HP+3 Spd+3",
     "skills": [
-      "Bonfire",
       "Cancel Affinity 3",
       "Res Smoke 3"
     ],
@@ -403,7 +386,6 @@
     "boost": "HP+3",
     "effect": "Pair Up | Duel 175",
     "skills": [
-      "Dragon Fang",
       "Bonus Doubler 3",
       "Renewal 3"
     ],
@@ -416,7 +398,6 @@
     "color": "Red",
     "boost": "HP+3 Def+4",
     "skills": [
-      "Glimmer",
       "Kestrel Stance 2",
       "Guidance 3"
     ],
@@ -430,7 +411,6 @@
     "boost": "HP+3",
     "effect": "Pair Up | Duel 180",
     "skills": [
-      "Ignis",
       "Distant Counter",
       "Joint Hone Def"
     ],
@@ -456,7 +436,6 @@
     "color": "Green",
     "boost": "HP+5 Def+5",
     "skills": [
-      "Moonbow",
       "Flashing Blade 4",
       "Panic Smoke 3"
     ],
@@ -469,7 +448,6 @@
     "color": "Blue",
     "boost": "HP+3 Def+4",
     "skills": [
-      "Moonbow",
       "Fierce Breath",
       "Bold Fighter 3"
     ],
@@ -482,7 +460,6 @@
     "color": "Green",
     "boost": "HP+5 Spd+4",
     "skills": [
-      "Glacies",
       "Atk/Res Bond 3",
       "Sabotage Res 3"
     ],
