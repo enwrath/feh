@@ -8,7 +8,7 @@
     </div>
     <div v-if="currPage === 2">
       <p class="title">
-        Inheritable skills:
+        Noteworthy fodder:
       </p>
       <p v-for="skill in hero.skills" :key="skill">
         {{ skill }}
