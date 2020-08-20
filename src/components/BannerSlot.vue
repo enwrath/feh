@@ -1,8 +1,8 @@
 <template>
-  <div class="bannerHero" v-bind:class="hero.color" v-on:click="showDetails = !showDetails" >
-    <img v-if="!showDetails || !('season' in hero)" v-bind:src="`./images/${hero.name}.webp`" />
+  <div class="bannerHero" v-bind:class="hero.color" v-on:click="nextPage" >
+    <img :style="{visibility: currPage === 0 || !('season' in hero) ? 'visible' : 'hidden'}" v-bind:src="`./images/${hero.name}.webp`" />
 
-    <HeroDetails v-if="showDetails && 'season' in hero" v-bind:hero="hero" />
+    <HeroDetails v-if="currPage !== 0 && 'season' in hero" :hero="hero" :currPage="currPage" />
 
   </div>
 </template>
@@ -20,7 +20,13 @@ export default {
   },
   data() {
     return {
-      showDetails: false
+      currPage: 0
+    }
+  },
+  methods: {
+    nextPage: function() {
+      this.currPage += 1;
+      this.currPage %= 3;
     }
   }
 }
@@ -42,6 +48,7 @@ export default {
 }
 .bannerHero {
   display: inline-block;
+  position: relative;
 }
 img {
   max-width: 100%;

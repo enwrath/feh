@@ -1,14 +1,19 @@
 <template>
   <div class="mainDiv">
-    <p><a v-on:click.stop="" :href="hero.gamepedia" target="_blank">{{ hero.name }}</a></p>
-    <hr />
-    <p>{{ hero.season }} | {{ hero.bst }} BST</p>
-    <p>Boost: {{ hero.boost }}</p>
-    <p>{{ hero.effect }}</p>
-    <hr />
-    <p v-for="skill in hero.skills" :key="skill">
-      {{ skill }}
-    </p>
+    <div v-if="currPage === 1">
+      <p><a v-on:click.stop="" :href="hero.gamepedia" target="_blank">{{ hero.name }}</a></p>
+      <p>{{ hero.season }} | {{ hero.bst }} BST</p>
+      <p>Boost: {{ hero.boost }}</p>
+      <p>{{ hero.effect }}</p>
+    </div>
+    <div v-if="currPage === 2">
+      <p class="title">
+        Inheritable skills:
+      </p>
+      <p v-for="skill in hero.skills" :key="skill">
+        {{ skill }}
+      </p>
+    </div>
   </div>
 </template>
 
@@ -16,7 +21,8 @@
 export default {
   name: 'HeroDetails',
   props: {
-    hero: {}
+    hero: {},
+    currPage: Number
   }
 }
 </script>
@@ -28,5 +34,13 @@ export default {
   border-style: solid;
   border-width: thick;
   box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.title {
+  text-decoration: underline;
 }
 </style>
