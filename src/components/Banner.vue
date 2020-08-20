@@ -2,9 +2,7 @@
   <div>
     <h2>{{banner.title}}</h2>
     <div class="bannerHeroes">
-      <BannerSlot v-bind:key="`R1${i}-${hero}`" v-for="(hero, i) in banner.heroes.filter((x,i) => [0,3,6,9].includes(i))" v-bind:hero="heroes[hero]" />
-      <BannerSlot v-bind:key="`R2${i}-${hero}`" v-for="(hero, i) in banner.heroes.filter((x,i) => [1,4,7,10].includes(i))" v-bind:hero="heroes[hero]" />
-      <BannerSlot v-bind:key="`R3${i}-${hero}`" v-for="(hero, i) in banner.heroes.filter((x,i) => [2,5,8,11].includes(i))" v-bind:hero="heroes[hero]" />
+      <BannerSlot v-bind:key="`${i}-${hero}`" v-for="(hero, i) in banner.heroes" v-bind:hero="heroes[hero]" />
     </div>
   </div>
 </template>
@@ -31,11 +29,11 @@ export default {
   flex-direction: row;
   flex-wrap: wrap;
   margin:auto;
-  max-width: 640px;
+  max-width: 480px;
 
 }
 .bannerHeroes > div {
-  width: 25%;
-  height: 33%;
+  width: 33%;
+  height: 25%;
 }
 </style>
