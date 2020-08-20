@@ -42,11 +42,9 @@ export default {
 }
 .bannerHero {
   display: inline-block;
-  padding: 0.5em 0;
 }
 img {
   max-width: 100%;
-  height: auto;
   background-color: #ffffff69;
   border-style: solid;
   border-width: thick;
