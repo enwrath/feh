@@ -30,15 +30,14 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .mainDiv {
-  background-color: #ffffff69;
-  border-style: solid;
-  border-width: thick;
-  box-sizing: border-box;
   height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .title {
   text-decoration: underline;
