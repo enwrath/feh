@@ -29,15 +29,18 @@ export default {
   flex-direction: row;
   flex-wrap: wrap;
   margin:auto;
-  max-width: 480px;
-
+  font-size: x-small;
+  max-width: 400px;
 }
-.bannerHeroes > div {
-  width: 33%;
-}
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 400px) {
   .bannerHeroes {
-    font-size: x-small;
+    font-size: small;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .bannerHeroes {
+    font-size: small;
+    max-width: 450px;
   }
 }
 </style>

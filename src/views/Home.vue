@@ -39,7 +39,8 @@ export default {
 }
 .bannerList > div {
   margin: auto;
-  margin-bottom: 1em;
-  background-color: #b5b5b5;
+  background-color: #150101;
+  padding: 0.25rem;
+  margin-bottom: 1rem;
 }
 </style>

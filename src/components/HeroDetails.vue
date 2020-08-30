@@ -8,7 +8,7 @@
     </div>
     <div v-if="currPage === 2">
       <p class="title">
-        Noteworthy fodder:
+        Noteworthy fodder
       </p>
       <p v-for="skill in hero.skills" :key="skill">
         {{ skill }}
@@ -38,6 +38,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: #150101;
 }
 .title {
   text-decoration: underline;

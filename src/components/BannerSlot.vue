@@ -47,12 +47,12 @@ export default {
   background-color: #94f194;
 }
 .Colorless {
-  background-color: #8080807a;
+  background-color: #808080;
 }
 .bannerHero {
   display: inline-block;
   position: relative;
-  padding-bottom: 0.25em;
+  width: 33.33%;
 }
 img {
   max-width: 100%;
@@ -60,6 +60,6 @@ img {
 }
 .imgDiv {
   border-style: solid;
-  border-width: thick;
+  border-color: #150101;
 }
 </style>
