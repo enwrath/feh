@@ -1,22 +1,5 @@
 [
   {
-    "title": "August 2020",
-    "heroes": [
-      "Eirika",
-      "Hrid",
-      "RED",
-      "Naga",
-      "Julia",
-      "BLUE",
-      "Gunnthra",
-      "Hector",
-      "GREEN",
-      "Bramimond",
-      "Mila",
-      "COLORLESS"
-    ]
-  },
-  {
     "title": "September 2020",
     "heroes": [
       "Lif",
@@ -43,7 +26,7 @@
       "BLUE",
       "BLUE",
       "Edelgard",
-      "Hel",
+      "Thrasir",
       "GREEN",
       "Robin",
       "Eir",
@@ -59,10 +42,10 @@
       "Tiki",
       "Azura",
       "BLUE",
-      "Lyn",
+      "Hel",
       "GREEN",
       "GREEN",
-      "COLORLESS",
+      "Corrin",
       "COLORLESS",
       "COLORLESS"
     ]
@@ -76,10 +59,10 @@
       "Peony",
       "BLUE",
       "BLUE",
-      "Thrasir",
       "GREEN",
       "GREEN",
-      "COLORLESS",
+      "GREEN",
+      "Bramimond",
       "COLORLESS",
       "COLORLESS"
     ]
@@ -90,11 +73,11 @@
       "Ike",
       "Roy",
       "RED",
+      "Julia",
       "BLUE",
       "BLUE",
-      "BLUE",
-      "GREEN",
-      "GREEN",
+      "Hector",
+      "Lyn",
       "GREEN",
       "COLORLESS",
       "COLORLESS",
@@ -105,15 +88,15 @@
     "title": "February 2021",
     "heroes": [
       "Altina",
-      "RED",
+      "Hrid",
       "RED",
       "Fjorm",
       "BLUE",
       "BLUE",
+      "Gunnthra",
       "GREEN",
       "GREEN",
-      "GREEN",
-      "COLORLESS",
+      "Mila",
       "COLORLESS",
       "COLORLESS"
     ]
@@ -121,10 +104,10 @@
   {
     "title": "March 2021",
     "heroes": [
+      "Eirika",
       "RED",
       "RED",
-      "RED",
-      "BLUE",
+      "Naga",
       "BLUE",
       "BLUE",
       "GREEN",

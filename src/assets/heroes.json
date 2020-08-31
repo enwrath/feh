@@ -465,5 +465,19 @@
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Yune:_Chaos_Goddess",
     "bst": 150
+  },
+  "Corrin": {
+    "name": "Corrin",
+    "season": "Wind",
+    "color": "Colorless",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 180",
+    "skills": [
+      "Distant Counter",
+      "Shield Pulse 3",
+      "Joint Drive Atk"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Corrin:_Child_of_Dusk",
+    "bst": 182
   }
 }
