@@ -2,6 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Legendary/Mythic Calendar</router-link> |
+      <router-link to="/arenascore">Arena Score</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
@@ -18,14 +19,14 @@
 
 #nav {
   padding: 30px;
+  background-color: #150101;
 }
 
-#nav a {
-  font-weight: bold;
+a {
   color: #86b2de;
 }
 
-#nav a.router-link-exact-active {
+a.router-link-exact-active {
   color: #a4e6c8;
 }
 body {
