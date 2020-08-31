@@ -19,9 +19,6 @@
         Reddit post</a>
       by patoente.
     </p>
-    <p>
-      More user friendly calculator by <a href="http://www.arcticsilverfox.com/score_calc/">arcticsilverfox</a>.
-    </p>
   </div>
 </template>
 
