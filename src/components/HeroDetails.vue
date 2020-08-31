@@ -43,4 +43,7 @@ export default {
 .title {
   text-decoration: underline;
 }
+a {
+  color: #00478e;
+}
 </style>

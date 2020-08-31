@@ -47,7 +47,7 @@ export default {
   background-color: #94f194;
 }
 .Colorless {
-  background-color: #808080;
+  background-color: #c3c3c3;
 }
 .bannerHero {
   display: inline-block;
