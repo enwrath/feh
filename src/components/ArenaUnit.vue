@@ -86,7 +86,7 @@
         <li>
           <label for="spSeal">Seal Skill SP:</label>
           <select v-model.number="spSeal" id="spSeal">
-            <option v-for="n in [240,200]" :value="n" :key="`seal-${n}`">
+            <option v-for="n in [240,200,160,100]" :value="n" :key="`seal-${n}`">
               {{n}}
             </option>
           </select>
@@ -162,5 +162,6 @@ label {
 }
 select {
   width: 5rem;
+  background-color: #dfe0d0;
 }
 </style>
