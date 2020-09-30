@@ -1,22 +1,5 @@
 [
   {
-    "title": "September 2020",
-    "heroes": [
-      "Lif",
-      "Seliph",
-      "RED",
-      "Ephraim",
-      "Lucina",
-      "BLUE",
-      "Yune",
-      "Celica",
-      "GREEN",
-      "Duma",
-      "Leif",
-      "COLORLESS"
-    ]
-  },
-  {
     "title": "October 2020",
     "heroes": [
       "Ryoma",
@@ -53,13 +36,13 @@
   {
     "title": "December 2020",
     "heroes": [
-      "RED",
+      "Plumeria",
       "RED",
       "RED",
       "Peony",
       "BLUE",
       "BLUE",
-      "GREEN",
+      "Celica",
       "GREEN",
       "GREEN",
       "Bramimond",
@@ -72,15 +55,15 @@
     "heroes": [
       "Ike",
       "Roy",
-      "RED",
+      "Lif",
       "Julia",
       "BLUE",
       "BLUE",
       "Hector",
       "Lyn",
       "GREEN",
-      "COLORLESS",
-      "COLORLESS",
+      "Duma",
+      "Leif",
       "COLORLESS"
     ]
   },
@@ -89,12 +72,12 @@
     "heroes": [
       "Altina",
       "Hrid",
-      "RED",
+      "Seliph",
       "Fjorm",
-      "BLUE",
+      "Ephraim",
       "BLUE",
       "Gunnthra",
-      "GREEN",
+      "Yune",
       "GREEN",
       "Mila",
       "COLORLESS",
@@ -108,7 +91,7 @@
       "RED",
       "RED",
       "Naga",
-      "BLUE",
+      "Lucina",
       "BLUE",
       "GREEN",
       "GREEN",

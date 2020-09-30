@@ -479,5 +479,18 @@
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Corrin:_Child_of_Dusk",
     "bst": 182
+  },
+  "Plumeria": {
+    "name": "Plumeria",
+    "season": "Astra",
+    "color": "Red",
+    "boost": "HP+5 Spd+4",
+    "skills": [
+      "Atk/Res Push 4",
+      "Sabotage Spd 3",
+      "Atk/Res Rein 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Plumeria:_Lewd_Dream",
+    "bst": 152
   }
 }
