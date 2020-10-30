@@ -1,22 +1,5 @@
 [
   {
-    "title": "October 2020",
-    "heroes": [
-      "Ryoma",
-      "Marth",
-      "Mirabilis",
-      "Chrom",
-      "BLUE",
-      "BLUE",
-      "Edelgard",
-      "Thrasir",
-      "GREEN",
-      "Robin",
-      "Eir",
-      "Alm"
-    ]
-  },
-  {
     "title": "November 2020",
     "heroes": [
       "Eliwood",
@@ -57,13 +40,13 @@
       "Roy",
       "Lif",
       "Julia",
-      "BLUE",
+      "Dimitri",
       "BLUE",
       "Hector",
       "Lyn",
-      "GREEN",
-      "COLORLESS",
-      "COLORLESS",
+      "Thrasir",
+      "Eir",
+      "Alm",
       "COLORLESS"
     ]
   },
@@ -80,7 +63,7 @@
       "Yune",
       "GREEN",
       "Mila",
-      "COLORLESS",
+      "Robin",
       "COLORLESS"
     ]
   },
@@ -88,10 +71,44 @@
     "title": "March 2021",
     "heroes": [
       "Eirika",
-      "RED",
+      "Marth",
       "RED",
       "Naga",
       "Lucina",
+      "BLUE",
+      "Edelgard",
+      "GREEN",
+      "GREEN",
+      "COLORLESS",
+      "COLORLESS",
+      "COLORLESS"
+    ]
+  },
+  {
+    "title": "April 2021",
+    "heroes": [
+      "Mirabilis",
+      "RED",
+      "RED",
+      "Chrom",
+      "BLUE",
+      "BLUE",
+      "GREEN",
+      "GREEN",
+      "GREEN",
+      "COLORLESS",
+      "COLORLESS",
+      "COLORLESS"
+    ]
+  },
+  {
+    "title": "May 2021",
+    "heroes": [
+      "Ryoma",
+      "RED",
+      "RED",
+      "BLUE",
+      "BLUE",
       "BLUE",
       "GREEN",
       "GREEN",

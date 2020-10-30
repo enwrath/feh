@@ -492,5 +492,18 @@
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Plumeria:_Lewd_Dream",
     "bst": 152
+  },
+  "Dimitri": {
+    "name": "Dimitri",
+    "season": "Water",
+    "color": "Blue",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 180",
+    "skills": [
+      "Sturdy Impact",
+      "Odd Tempest 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Dimitri:_Savior_King",
+    "bst": 177
   }
 }
