@@ -1,22 +1,5 @@
 [
   {
-    "title": "November 2020",
-    "heroes": [
-      "Eliwood",
-      "Sothis",
-      "RED",
-      "Tiki",
-      "Azura",
-      "BLUE",
-      "Hel",
-      "GREEN",
-      "GREEN",
-      "Corrin",
-      "Leif",
-      "COLORLESS"
-    ]
-  },
-  {
     "title": "December 2020",
     "heroes": [
       "Plumeria",
@@ -58,13 +41,14 @@
       "Seliph",
       "Fjorm",
       "Ephraim",
-      "BLUE",
+      "Tiki",
       "Gunnthra",
       "Yune",
-      "GREEN",
+      "Triandra",
+      "Hel",
       "Mila",
       "Robin",
-      "COLORLESS"
+      "Leif"
     ]
   },
   {
@@ -77,9 +61,9 @@
       "Lucina",
       "BLUE",
       "Edelgard",
+      "Freyja",
       "GREEN",
-      "GREEN",
-      "COLORLESS",
+      "Corrin",
       "COLORLESS",
       "COLORLESS"
     ]
@@ -105,6 +89,23 @@
     "title": "May 2021",
     "heroes": [
       "Ryoma",
+      "Eliwood",
+      "RED",
+      "Azura",
+      "BLUE",
+      "BLUE",
+      "GREEN",
+      "GREEN",
+      "GREEN",
+      "COLORLESS",
+      "COLORLESS",
+      "COLORLESS"
+    ]
+  },
+  {
+    "title": "TBD",
+    "heroes": [
+      "Sothis",
       "RED",
       "RED",
       "BLUE",

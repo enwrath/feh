@@ -505,5 +505,30 @@
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Dimitri:_Savior_King",
     "bst": 177
+  },
+  "Freyja": {
+    "name": "Freyja",
+    "season": "Light",
+    "color": "Green",
+    "boost": "HP+5 Atk+3",
+    "skills": [
+      "Atk/Spd Solo 4",
+      "Pulse Smoke 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Freyja:_Lady_of_Nightmare",
+    "bst": 168
+  },
+  "Triandra": {
+    "name": "Triandra",
+    "season": "Dark",
+    "color": "Green",
+    "boost": "HP+5 Spd+4",
+    "skills": [
+      "Atk/Spd Push 4",
+      "Aerobatics 3",
+      "Spd/Res Rein 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Triandra:_Nightmare",
+    "bst": 151
   }
 }
