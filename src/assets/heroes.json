@@ -530,5 +530,19 @@
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Triandra:_Nightmare",
     "bst": 151
+  },
+  "Reginn": {
+    "name": "Reginn",
+    "season": "Astra",
+    "color": "Red",
+    "boost": "HP+5 Atk+3",
+    "effect": "Raiding party bonus",
+    "skills": [
+      "Swift Sparrow 3",
+      "Lull Spd/Def 3",
+      "Panic Smoke 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Reginn:_Bearing_Hope",
+    "bst": 168
   }
 }
