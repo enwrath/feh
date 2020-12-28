@@ -1,33 +1,16 @@
 [
   {
-    "title": "December 2020",
-    "heroes": [
-      "Plumeria",
-      "Reginn",
-      "RED",
-      "Peony",
-      "BLUE",
-      "BLUE",
-      "Celica",
-      "GREEN",
-      "GREEN",
-      "Bramimond",
-      "Duma",
-      "COLORLESS"
-    ]
-  },
-  {
     "title": "January 2021",
     "heroes": [
-      "Ike",
       "Roy",
       "Lif",
+      "RED",
       "Julia",
       "Dimitri",
       "BLUE",
-      "Hector",
-      "Lyn",
+      "Yune"
       "Thrasir",
+      "GREEN",
       "Eir",
       "Alm",
       "COLORLESS"
@@ -39,16 +22,15 @@
       "Altina",
       "Hrid",
       "Seliph",
-      "Fjorm",
-      "Ephraim",
+      "Naga",
       "Tiki",
-      "Gunnthra",
-      "Yune",
+      "BLUE",
       "Triandra",
       "Hel",
+      "GREEN",
       "Mila",
-      "Robin",
       "Leif"
+      "COLORLESS",
     ]
   },
   {
@@ -56,15 +38,15 @@
     "heroes": [
       "Eirika",
       "Marth",
-      "RED",
-      "Naga",
+      "Reginn",
       "Lucina",
+      "BLUE",
       "BLUE",
       "Edelgard",
       "Freyja",
       "GREEN",
       "Corrin",
-      "COLORLESS",
+      "Bramimond",
       "COLORLESS"
     ]
   },
@@ -72,10 +54,27 @@
     "title": "April 2021",
     "heroes": [
       "Mirabilis",
-      "RED",
+      "Lilina",
       "RED",
       "Chrom",
       "BLUE",
+      "BLUE",
+      "Celica",
+      "GREEN",
+      "GREEN",
+      "Duma",
+      "COLORLESS",
+      "COLORLESS"
+    ]
+  },
+  {
+    "title": "May 2021",
+    "heroes": [
+      "Eliwood",
+      "RED",
+      "RED",
+      "Azura",
+      "Peony",
       "BLUE",
       "GREEN",
       "GREEN",
@@ -86,12 +85,12 @@
     ]
   },
   {
-    "title": "May 2021",
+    "title": "June 2021",
     "heroes": [
-      "Ryoma",
-      "Eliwood",
+      "Plumeria",
       "RED",
-      "Azura",
+      "RED",
+      "BLUE",
       "BLUE",
       "BLUE",
       "GREEN",
@@ -106,15 +105,15 @@
     "title": "TBD",
     "heroes": [
       "Sothis",
-      "RED",
-      "RED",
+      "Ike",
+      "Ryoma",
+      "Fjorm",
+      "Ephraim",
       "BLUE",
-      "BLUE",
-      "BLUE",
-      "GREEN",
-      "GREEN",
-      "GREEN",
-      "COLORLESS",
+      "Lyn",
+      "Hector",
+      "Gunnthra",
+      "Robin",
       "COLORLESS",
       "COLORLESS"
     ]

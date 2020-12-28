@@ -544,5 +544,19 @@
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Reginn:_Bearing_Hope",
     "bst": 168
+  },
+  "Lilina": {
+    "name": "Lilina",
+    "season": "Fire",
+    "color": "Red",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 180",
+    "skills": [
+      "Atk/Res Solo 4",
+      "Sabotage Res 3",
+      "Pulse Smoke 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Lilina:_Firelight_Leader",
+    "bst": 158
   }
 }
