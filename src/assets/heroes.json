@@ -558,5 +558,18 @@
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Lilina:_Firelight_Leader",
     "bst": 158
+  },
+  "Seiros": {
+    "name": "Seiros",
+    "season": "Anima",
+    "color": "Blue",
+    "boost": "HP+5 Atk+3",
+    "effect": "Defensive team bonus",
+    "skills": [
+      "Mirror Impact",
+      "Dragon Wall 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Seiros:_Saint_of_Legend",
+    "bst": 177
   }
 }

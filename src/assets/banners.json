@@ -1,22 +1,5 @@
 [
   {
-    "title": "January 2021",
-    "heroes": [
-      "Roy",
-      "Lif",
-      "RED",
-      "Julia",
-      "Dimitri",
-      "BLUE",
-      "Yune",
-      "Thrasir",
-      "GREEN",
-      "Eir",
-      "Alm",
-      "COLORLESS"
-    ]
-  },
-  {
     "title": "February 2021",
     "heroes": [
       "Altina",
@@ -57,13 +40,13 @@
       "Lilina",
       "RED",
       "Chrom",
-      "BLUE",
+      "Seiros",
       "BLUE",
       "Celica",
-      "GREEN",
+      "Thrasir",
       "GREEN",
       "Duma",
-      "COLORLESS",
+      "Eir",
       "COLORLESS"
     ]
   },
@@ -71,7 +54,7 @@
     "title": "May 2021",
     "heroes": [
       "Eliwood",
-      "RED",
+      "Roy",
       "RED",
       "Azura",
       "Peony",
@@ -88,12 +71,29 @@
     "title": "June 2021",
     "heroes": [
       "Plumeria",
+      "Lif",
       "RED",
-      "RED",
-      "BLUE",
+      "Julia",
       "BLUE",
       "BLUE",
       "GREEN",
+      "GREEN",
+      "GREEN",
+      "Alm",
+      "COLORLESS",
+      "COLORLESS"
+    ]
+  },
+  {
+    "title": "July 2021",
+    "heroes": [
+      "RED",
+      "RED",
+      "RED",
+      "Dimitri",
+      "BLUE",
+      "BLUE",
+      "Yune",
       "GREEN",
       "GREEN",
       "COLORLESS",
