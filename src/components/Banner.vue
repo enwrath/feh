@@ -1,8 +1,8 @@
 <template>
   <div>
     <h2>{{banner.title}}</h2>
-    <div class="bannerHeroes">
-      <BannerSlot v-bind:key="`${i}-${hero}`" v-for="(hero, i) in banner.heroes" v-bind:hero="heroes[hero]" />
+    <div v-bind:class="remix ? 'remixHeroes' : 'bannerHeroes'">
+      <BannerSlot v-bind:key="`${i}-${hero}`" v-for="(hero, i) in banner.heroes" v-bind:hero="heroes[hero]" v-bind:remix="remix" />
     </div>
   </div>
 </template>
@@ -17,7 +17,8 @@ export default {
   },
   props: {
     banner: {},
-    heroes: {}
+    heroes: {},
+    remix: Boolean
   }
 }
 </script>
@@ -32,8 +33,19 @@ export default {
   font-size: x-small;
   max-width: 400px;
 }
+.remixHeroes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin:auto;
+  font-size: x-small;
+  max-width: 266px;
+}
 @media only screen and (min-width: 400px) {
   .bannerHeroes {
+    font-size: small;
+  }
+  .remixHeroes {
     font-size: small;
   }
 }
@@ -41,6 +53,10 @@ export default {
   .bannerHeroes {
     font-size: small;
     max-width: 450px;
+  }
+  .remixHeroes {
+    font-size: small;
+    max-width: 300px;
   }
 }
 </style>

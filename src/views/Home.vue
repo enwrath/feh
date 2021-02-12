@@ -2,8 +2,14 @@
   <div>
     <h1>Upcoming legendary/mythic banners</h1>
     <div class="bannerList">
-      <div v-bind:key="banner.title" v-for="banner in banners">
-        <Banner v-bind:banner="banner" v-bind:heroes="heroes" />
+      <div v-bind:key="banner.title" v-for="banner in banners.legendary">
+        <Banner v-bind:banner="banner" v-bind:heroes="heroes" v-bind:remix="false" />
+      </div>
+    </div>
+    <h1>Upcoming remix legendary banners</h1>
+    <div class="bannerList">
+      <div v-bind:key="`remix-${banner.title}`" v-for="banner in banners.remix">
+        <Banner v-bind:banner="banner" v-bind:heroes="heroes"  v-bind:remix="true" />
       </div>
     </div>
   </div>

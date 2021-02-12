@@ -1,122 +1,177 @@
-[
-  {
-    "title": "February 2021",
-    "heroes": [
-      "Altina",
-      "Hrid",
-      "Seliph",
-      "Naga",
-      "Tiki",
-      "BLUE",
-      "Triandra",
-      "Hel",
-      "GREEN",
-      "Mila",
-      "Leif",
-      "COLORLESS"
-    ]
-  },
-  {
-    "title": "March 2021",
-    "heroes": [
-      "Eirika",
-      "Marth",
-      "Reginn",
-      "Lucina",
-      "BLUE",
-      "BLUE",
-      "Edelgard",
-      "Freyja",
-      "GREEN",
-      "Corrin",
-      "Bramimond",
-      "COLORLESS"
-    ]
-  },
-  {
-    "title": "April 2021",
-    "heroes": [
-      "Mirabilis",
-      "Lilina",
-      "RED",
-      "Chrom",
-      "Seiros",
-      "BLUE",
-      "Celica",
-      "Thrasir",
-      "GREEN",
-      "Duma",
-      "Eir",
-      "COLORLESS"
-    ]
-  },
-  {
-    "title": "May 2021",
-    "heroes": [
-      "Eliwood",
-      "Roy",
-      "RED",
-      "Azura",
-      "Peony",
-      "BLUE",
-      "GREEN",
-      "GREEN",
-      "GREEN",
-      "COLORLESS",
-      "COLORLESS",
-      "COLORLESS"
-    ]
-  },
-  {
-    "title": "June 2021",
-    "heroes": [
-      "Plumeria",
-      "Lif",
-      "RED",
-      "Julia",
-      "BLUE",
-      "BLUE",
-      "GREEN",
-      "GREEN",
-      "GREEN",
-      "Alm",
-      "COLORLESS",
-      "COLORLESS"
-    ]
-  },
-  {
-    "title": "July 2021",
-    "heroes": [
-      "RED",
-      "RED",
-      "RED",
-      "Dimitri",
-      "BLUE",
-      "BLUE",
-      "Yune",
-      "GREEN",
-      "GREEN",
-      "COLORLESS",
-      "COLORLESS",
-      "COLORLESS"
-    ]
-  },
-  {
-    "title": "TBD",
-    "heroes": [
-      "Sothis",
-      "Ike",
-      "Ryoma",
-      "Fjorm",
-      "Ephraim",
-      "BLUE",
-      "Lyn",
-      "Hector",
-      "Gunnthra",
-      "Robin",
-      "COLORLESS",
-      "COLORLESS"
-    ]
-  }
-
-]
+{
+  "legendary": [
+    {
+      "title": "February 2021",
+      "heroes": [
+        "Altina",
+        "Hrid",
+        "Seliph",
+        "Naga",
+        "Tiki",
+        "BLUE",
+        "Triandra",
+        "Hel",
+        "GREEN",
+        "Mila",
+        "Leif",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "March 2021",
+      "heroes": [
+        "Eirika",
+        "Marth",
+        "Reginn",
+        "Lucina",
+        "BLUE",
+        "BLUE",
+        "Edelgard",
+        "Freyja",
+        "GREEN",
+        "Corrin",
+        "Bramimond",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "April 2021",
+      "heroes": [
+        "Mirabilis",
+        "Lilina",
+        "RED",
+        "Chrom",
+        "Seiros",
+        "BLUE",
+        "Celica",
+        "Thrasir",
+        "GREEN",
+        "Duma",
+        "Eir",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "May 2021",
+      "heroes": [
+        "Eliwood",
+        "Roy",
+        "RED",
+        "Azura",
+        "Peony",
+        "BLUE",
+        "GREEN",
+        "GREEN",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "June 2021",
+      "heroes": [
+        "Plumeria",
+        "Lif",
+        "RED",
+        "Julia",
+        "BLUE",
+        "BLUE",
+        "GREEN",
+        "GREEN",
+        "GREEN",
+        "Alm",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "July 2021",
+      "heroes": [
+        "RED",
+        "RED",
+        "RED",
+        "Dimitri",
+        "BLUE",
+        "BLUE",
+        "Yune",
+        "GREEN",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "August 2021",
+      "heroes": [
+        "Sothis",
+        "RED",
+        "RED",
+        "BLUE",
+        "BLUE",
+        "BLUE",
+        "GREEN",
+        "GREEN",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    }
+  ],
+  "remix": [
+    {
+      "title": "May 2021",
+      "heroes": [
+        "RED",
+        "RED",
+        "BLUE",
+        "BLUE",
+        "GREEN",
+        "GREEN",
+        "Robin",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "July 2021",
+      "heroes": [
+        "Ike",
+        "RED",
+        "Fjorm",
+        "BLUE",
+        "Lyn",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "September 2021",
+      "heroes": [
+        "RED",
+        "RED",
+        "BLUE",
+        "BLUE",
+        "Hector",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "TBD",
+      "heroes": [
+        "Ryoma",
+        "RED",
+        "Ephraim",
+        "BLUE",
+        "Gunnthra",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    }
+  ]
+}

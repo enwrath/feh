@@ -1,5 +1,5 @@
 <template>
-  <div class="bannerHero" v-bind:class="hero.color" v-on:click="nextPage" >
+  <div v-bind:class="[remix ? 'remixHero' : 'bannerHero', hero.color]" v-on:click="nextPage" >
     <div class="imgDiv">
 
 
@@ -19,7 +19,8 @@ export default {
     HeroDetails
   },
   props: {
-    hero: {}
+    hero: {},
+    remix: Boolean
   },
   data() {
     return {
@@ -53,6 +54,11 @@ export default {
   display: inline-block;
   position: relative;
   width: 33.33%;
+}
+.remixHero {
+  display: inline-block;
+  position: relative;
+  width: 50%;
 }
 img {
   max-width: 100%;
