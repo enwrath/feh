@@ -571,5 +571,18 @@
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Seiros:_Saint_of_Legend",
     "bst": 177
+  },
+  "Claude": {
+    "name": "Claude",
+    "season": "Earth",
+    "color": "Colorless",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 185",
+    "skills": [
+      "Atk/Spd Catch 4",
+      "Spd/Def Rein 3"
+    ],
+    "gamepedia": "https://feheroes.gamepedia.com/Claude:_King_of_Unification",
+    "bst": 166
   }
 }

@@ -1,23 +1,6 @@
 {
   "legendary": [
     {
-      "title": "February 2021",
-      "heroes": [
-        "Altina",
-        "Hrid",
-        "Seliph",
-        "Naga",
-        "Tiki",
-        "BLUE",
-        "Triandra",
-        "Hel",
-        "GREEN",
-        "Mila",
-        "Leif",
-        "COLORLESS"
-      ]
-    },
-    {
       "title": "March 2021",
       "heroes": [
         "Eirika",
@@ -60,10 +43,10 @@
         "Azura",
         "Peony",
         "BLUE",
+        "Triandra",
         "GREEN",
         "GREEN",
-        "GREEN",
-        "COLORLESS",
+        "Claude",
         "COLORLESS",
         "COLORLESS"
       ]
@@ -77,18 +60,18 @@
         "Julia",
         "BLUE",
         "BLUE",
-        "GREEN",
+        "Hel",
         "GREEN",
         "GREEN",
         "Alm",
-        "COLORLESS",
+        "Leif",
         "COLORLESS"
       ]
     },
     {
       "title": "July 2021",
       "heroes": [
-        "RED",
+        "Seliph",
         "RED",
         "RED",
         "Dimitri",
@@ -97,7 +80,7 @@
         "Yune",
         "GREEN",
         "GREEN",
-        "COLORLESS",
+        "Mila",
         "COLORLESS",
         "COLORLESS"
       ]
@@ -108,7 +91,24 @@
         "Sothis",
         "RED",
         "RED",
+        "Naga",
         "BLUE",
+        "BLUE",
+        "GREEN",
+        "GREEN",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "September 2021",
+      "heroes": [
+        "Altina",
+        "Hrid",
+        "RED",
+        "Tiki",
         "BLUE",
         "BLUE",
         "GREEN",
