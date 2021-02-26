@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TextBubble :bubbletext="'You can click the heroes to check their fodder skills and more!'" :imagename="'tikihelp'" />
+    <TextBubble :bubbletext="'You can click the heroes to check their seasons and more! Click again to see their fodder!'" :imagename="'tikihelp'" />
     <h1>Upcoming legendary/mythic banners</h1>
     <div class="bannerList">
       <div v-bind:key="banner.title" v-for="banner in banners.legendary">
