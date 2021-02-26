@@ -1,5 +1,6 @@
 <template>
   <div>
+    <TextBubble :bubbletext="'You can click the heroes to check their fodder skills and more!'" :imagename="'tikihelp'" />
     <h1>Upcoming legendary/mythic banners</h1>
     <div class="bannerList">
       <div v-bind:key="banner.title" v-for="banner in banners.legendary">
@@ -19,13 +20,14 @@
 
 // @ is an alias to /src
 import Banner from '@/components/Banner.vue'
+import TextBubble from '@/components/TextBubble.vue'
 import bannerjson from "@/assets/banners.json";
 import herojson from "@/assets/heroes.json";
 
 export default {
   name: 'Home',
   components: {
-    Banner
+    Banner, TextBubble
   },
   data() {
     return {
