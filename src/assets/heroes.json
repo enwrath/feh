@@ -584,5 +584,18 @@
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Claude:_King_of_Unification",
     "bst": 166
+  },
+  "Dagr": {
+    "name": "Dagr",
+    "season": "Light",
+    "color": "Green",
+    "boost": "HP+5 Res+5",
+    "effect": "Raiding party bonus",
+    "skills": [
+      "Atk/Spd Push 4",
+      "Even Tempest 3"
+    ],
+    "gamepedia": "https://feheroes.fandom.com/wiki/Dagr:_Sun%27s_Radiance",
+    "bst": 176
   }
 }

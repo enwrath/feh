@@ -1,23 +1,6 @@
 {
   "legendary": [
     {
-      "title": "March 2021",
-      "heroes": [
-        "Eirika",
-        "Marth",
-        "Reginn",
-        "Lucina",
-        "BLUE",
-        "BLUE",
-        "Edelgard",
-        "Freyja",
-        "GREEN",
-        "Corrin",
-        "Bramimond",
-        "COLORLESS"
-      ]
-    },
-    {
       "title": "April 2021",
       "heroes": [
         "Mirabilis",
@@ -44,10 +27,10 @@
         "Peony",
         "BLUE",
         "Triandra",
-        "GREEN",
+        "Freyja",
         "GREEN",
         "Claude",
-        "COLORLESS",
+        "Corrin",
         "COLORLESS"
       ]
     },
@@ -61,11 +44,11 @@
         "BLUE",
         "BLUE",
         "Hel",
-        "GREEN",
+        "Dagr",
         "GREEN",
         "Alm",
         "Leif",
-        "COLORLESS"
+        "Bramimond"
       ]
     },
     {
@@ -89,12 +72,12 @@
       "title": "August 2021",
       "heroes": [
         "Sothis",
-        "RED",
+        "Reginn",
         "RED",
         "Naga",
         "BLUE",
         "BLUE",
-        "GREEN",
+        "Edelgard",
         "GREEN",
         "GREEN",
         "COLORLESS",
@@ -108,7 +91,7 @@
         "Altina",
         "Hrid",
         "RED",
-        "Tiki",
+        "BLUE",
         "BLUE",
         "BLUE",
         "GREEN",
@@ -161,7 +144,33 @@
       ]
     },
     {
-      "title": "TBD",
+      "title": "(Remix?) November 2021",
+      "heroes": [
+        "Marth",
+        "RED",
+        "Tiki",
+        "BLUE",
+        "GREEN",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "(Remix?) January 2022",
+      "heroes": [
+        "Eirika",
+        "RED",
+        "Lucina",
+        "BLUE",
+        "GREEN",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "TBA (likely May)",
       "heroes": [
         "Ryoma",
         "RED",
