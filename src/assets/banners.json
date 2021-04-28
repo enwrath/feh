@@ -1,23 +1,6 @@
 {
   "legendary": [
     {
-      "title": "April 2021",
-      "heroes": [
-        "Mirabilis",
-        "Lilina",
-        "RED",
-        "Chrom",
-        "Seiros",
-        "BLUE",
-        "Celica",
-        "Thrasir",
-        "GREEN",
-        "Duma",
-        "Eir",
-        "COLORLESS"
-      ]
-    },
-    {
       "title": "May 2021",
       "heroes": [
         "Eliwood",
@@ -55,16 +38,16 @@
       "title": "July 2021",
       "heroes": [
         "Seliph",
-        "RED",
-        "RED",
+        "Sigurd",
+        "Lilina",
         "Dimitri",
-        "BLUE",
+        "Seiros",
         "BLUE",
         "Yune",
         "GREEN",
         "GREEN",
         "Mila",
-        "COLORLESS",
+        "Eir",
         "COLORLESS"
       ]
     },
@@ -78,7 +61,7 @@
         "BLUE",
         "BLUE",
         "Edelgard",
-        "GREEN",
+        "Thrasir",
         "GREEN",
         "COLORLESS",
         "COLORLESS",
@@ -91,13 +74,30 @@
         "Altina",
         "Hrid",
         "RED",
+        "Chrom",
         "BLUE",
         "BLUE",
-        "BLUE",
-        "GREEN",
+        "Celica",
         "GREEN",
         "GREEN",
         "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "October 2021",
+      "heroes": [
+        "Mirabilis",
+        "RED",
+        "RED",
+        "BLUE",
+        "BLUE",
+        "BLUE",
+        "GREEN",
+        "GREEN",
+        "GREEN",
+        "Duma",
         "COLORLESS",
         "COLORLESS"
       ]
@@ -107,11 +107,11 @@
     {
       "title": "May 2021",
       "heroes": [
-        "RED",
+        "Ryoma",
         "RED",
         "BLUE",
         "BLUE",
-        "GREEN",
+        "Gunnthra",
         "GREEN",
         "Robin",
         "COLORLESS"
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "title": "(Remix?) November 2021",
+      "title": "November 2021",
       "heroes": [
         "Marth",
         "RED",
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "title": "(Remix?) January 2022",
+      "title": "January 2022",
       "heroes": [
         "Eirika",
         "RED",
@@ -170,13 +170,13 @@
       ]
     },
     {
-      "title": "TBA (likely May)",
+      "title": "Not announced",
       "heroes": [
-        "Ryoma",
+        "RED",
         "RED",
         "Ephraim",
         "BLUE",
-        "Gunnthra",
+        "GREEN",
         "GREEN",
         "COLORLESS",
         "COLORLESS"

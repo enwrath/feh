@@ -173,7 +173,7 @@
     "color": "Blue",
     "boost": "HP+3 Spd+3",
     "skills": [
-      "Atk/Def Bond 3",
+      "Atk/Def Unity",
       "Shield Pulse 3",
       "Drive Atk 2"
     ],
@@ -235,8 +235,7 @@
     "boost": "HP+3 Atk+2",
     "skills": [
       "Warding Breath",
-      "Seal Atk/Def 2",
-      "Def Tactic 3"
+      "Joint Drive Res"
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Ike:_Vanguard_Legend",
     "bst": 163
@@ -597,5 +596,18 @@
     ],
     "gamepedia": "https://feheroes.fandom.com/wiki/Dagr:_Sun%27s_Radiance",
     "bst": 176
+  },
+  "Sigurd": {
+    "name": "Sigurd",
+    "season": "Wind",
+    "color": "Red",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 185",
+    "skills": [
+      "Atk/Def Catch 4",
+      "Fatal Smoke 3"
+    ],
+    "gamepedia": "https://feheroes.fandom.com/wiki/Sigurd:_Fated_Holy_Knight",
+    "bst": 168
   }
 }
