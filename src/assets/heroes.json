@@ -186,7 +186,7 @@
     "color": "Green",
     "boost": "HP+3 Res+4",
     "skills": [
-      "Fortress Res 3",
+      "Atk/Res Solo 4",
       "Res Ploy 3"
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Gunnthr%C3%A1:_Voice_of_Dreams",
@@ -398,7 +398,8 @@
     "boost": "HP+3 Def+4",
     "skills": [
       "Kestrel Stance 2",
-      "Guidance 3"
+      "Guidance 3",
+      "Atk/Spd Rein 3"
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Ryoma:_Supreme_Samurai",
     "bst": 162

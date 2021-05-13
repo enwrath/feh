@@ -105,19 +105,6 @@
   ],
   "remix": [
     {
-      "title": "May 2021",
-      "heroes": [
-        "Ryoma",
-        "RED",
-        "BLUE",
-        "BLUE",
-        "Gunnthra",
-        "GREEN",
-        "Robin",
-        "COLORLESS"
-      ]
-    },
-    {
       "title": "July 2021",
       "heroes": [
         "Ike",
@@ -126,16 +113,16 @@
         "BLUE",
         "Lyn",
         "GREEN",
-        "COLORLESS",
+        "Robin",
         "COLORLESS"
       ]
     },
     {
       "title": "September 2021",
       "heroes": [
+        "Ryoma",
         "RED",
-        "RED",
-        "BLUE",
+        "Ephraim",
         "BLUE",
         "Hector",
         "GREEN",
@@ -144,37 +131,24 @@
       ]
     },
     {
-      "title": "November 2021",
+      "title": "November 2021*",
       "heroes": [
         "Marth",
         "RED",
         "Tiki",
         "BLUE",
-        "GREEN",
+        "Gunnthra",
         "GREEN",
         "COLORLESS",
         "COLORLESS"
       ]
     },
     {
-      "title": "January 2022",
+      "title": "January 2022*",
       "heroes": [
         "Eirika",
         "RED",
         "Lucina",
-        "BLUE",
-        "GREEN",
-        "GREEN",
-        "COLORLESS",
-        "COLORLESS"
-      ]
-    },
-    {
-      "title": "Not announced",
-      "heroes": [
-        "RED",
-        "RED",
-        "Ephraim",
         "BLUE",
         "GREEN",
         "GREEN",
