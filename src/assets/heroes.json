@@ -610,5 +610,18 @@
     ],
     "gamepedia": "https://feheroes.fandom.com/wiki/Sigurd:_Fated_Holy_Knight",
     "bst": 168
+  },
+  "Ashera": {
+    "name": "Ashera",
+    "season": "Astra",
+    "color": "Colorless",
+    "boost": "HP+5 Res+5",
+    "effect": "Raiding party bonus",
+    "skills": [
+      "Atk/Res Ideal 4",
+      "Lull Spd/Res 3"
+    ],
+    "gamepedia": "https://feheroes.fandom.com/wiki/Ashera:_Order_Goddess",
+    "bst": 166
   }
 }

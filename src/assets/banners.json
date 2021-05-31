@@ -1,23 +1,6 @@
 {
   "legendary": [
     {
-      "title": "May 2021",
-      "heroes": [
-        "Eliwood",
-        "Roy",
-        "RED",
-        "Azura",
-        "Peony",
-        "BLUE",
-        "Triandra",
-        "Freyja",
-        "GREEN",
-        "Claude",
-        "Corrin",
-        "COLORLESS"
-      ]
-    },
-    {
       "title": "June 2021",
       "heroes": [
         "Plumeria",
@@ -39,7 +22,7 @@
       "heroes": [
         "Seliph",
         "Sigurd",
-        "Lilina",
+        "Reginn",
         "Dimitri",
         "Seiros",
         "BLUE",
@@ -55,7 +38,7 @@
       "title": "August 2021",
       "heroes": [
         "Sothis",
-        "Reginn",
+        "Lilina",
         "RED",
         "Naga",
         "BLUE",
@@ -63,7 +46,7 @@
         "Edelgard",
         "Thrasir",
         "GREEN",
-        "COLORLESS",
+        "Ashera",
         "COLORLESS",
         "COLORLESS"
       ]
@@ -73,14 +56,14 @@
       "heroes": [
         "Altina",
         "Hrid",
-        "RED",
+        "Eliwood",
         "Chrom",
         "BLUE",
         "BLUE",
         "Celica",
         "GREEN",
         "GREEN",
-        "COLORLESS",
+        "Claude",
         "COLORLESS",
         "COLORLESS"
       ]
@@ -89,15 +72,66 @@
       "title": "October 2021",
       "heroes": [
         "Mirabilis",
+        "Roy",
         "RED",
-        "RED",
         "BLUE",
         "BLUE",
         "BLUE",
-        "GREEN",
+        "Triandra",
         "GREEN",
         "GREEN",
         "Duma",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "November 2021",
+      "heroes": [
+        "RED",
+        "RED",
+        "RED",
+        "BLUE",
+        "BLUE",
+        "BLUE",
+        "GREEN",
+        "GREEN",
+        "GREEN",
+        "Corrin",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "December 2021",
+      "heroes": [
+        "RED",
+        "RED",
+        "RED",
+        "BLUE",
+        "BLUE",
+        "BLUE",
+        "Freyja",
+        "GREEN",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "January 2022",
+      "heroes": [
+        "RED",
+        "RED",
+        "RED",
+        "Peony",
+        "BLUE",
+        "BLUE",
+        "GREEN",
+        "GREEN",
+        "GREEN",
+        "COLORLESS",
         "COLORLESS",
         "COLORLESS"
       ]
@@ -149,6 +183,19 @@
         "Eirika",
         "RED",
         "Lucina",
+        "BLUE",
+        "GREEN",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "March 2022*",
+      "heroes": [
+        "RED",
+        "RED",
+        "Azura",
         "BLUE",
         "GREEN",
         "GREEN",
