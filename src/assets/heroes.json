@@ -623,5 +623,32 @@
     ],
     "gamepedia": "https://feheroes.fandom.com/wiki/Ashera:_Order_Goddess",
     "bst": 166
+  },
+  "Nott": {
+    "name": "Nott",
+    "season": "Dark",
+    "color": "Blue",
+    "boost": "HP+5 Def+5  ",
+    "effect": "Defensive team bonus",
+    "skills": [
+      "Distant Counter",
+      "Atk/Spd Menace"
+    ],
+    "gamepedia": "https://feheroes.fandom.com/wiki/N%C3%B3tt:_Moon%27s_Elegance",
+    "bst": 176
+  },
+  "Byleth": {
+    "name": "Byleth",
+    "season": "Water",
+    "color": "Green",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 185",
+    "skills": [
+      "Atk/Def Ideal 4",
+      "Lull Atk/Res 3",
+      "Time's Pulse 3"
+    ],
+    "gamepedia": "https://feheroes.fandom.com/wiki/Byleth:_The_F%C3%B3dlan_Star",
+    "bst": 166
   }
 }

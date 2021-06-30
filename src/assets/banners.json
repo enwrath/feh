@@ -1,23 +1,6 @@
 {
   "legendary": [
     {
-      "title": "June 2021",
-      "heroes": [
-        "Plumeria",
-        "Lif",
-        "RED",
-        "Julia",
-        "BLUE",
-        "BLUE",
-        "Hel",
-        "Dagr",
-        "GREEN",
-        "Alm",
-        "Leif",
-        "Bramimond"
-      ]
-    },
-    {
       "title": "July 2021",
       "heroes": [
         "Seliph",
@@ -61,10 +44,10 @@
         "BLUE",
         "BLUE",
         "Celica",
-        "GREEN",
+        "Byleth",
         "GREEN",
         "Claude",
-        "COLORLESS",
+        "Leif",
         "COLORLESS"
       ]
     },
@@ -78,34 +61,34 @@
         "BLUE",
         "BLUE",
         "Triandra",
-        "GREEN",
+        "Hel",
         "GREEN",
         "Duma",
-        "COLORLESS",
+        "Alm",
         "COLORLESS"
       ]
     },
     {
       "title": "November 2021",
       "heroes": [
+        "Plumeria",
         "RED",
         "RED",
-        "RED",
+        "Nott",
         "BLUE",
         "BLUE",
-        "BLUE",
-        "GREEN",
+        "Dagr",
         "GREEN",
         "GREEN",
         "Corrin",
-        "COLORLESS",
+        "Bramimond",
         "COLORLESS"
       ]
     },
     {
       "title": "December 2021",
       "heroes": [
-        "RED",
+        "Lif",
         "RED",
         "RED",
         "BLUE",
@@ -126,7 +109,7 @@
         "RED",
         "RED",
         "Peony",
-        "BLUE",
+        "Julia",
         "BLUE",
         "GREEN",
         "GREEN",
