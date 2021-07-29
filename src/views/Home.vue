@@ -2,12 +2,14 @@
   <div>
     <TextBubble :bubbletext="'You can click the heroes to check their seasons and more! Click again to see their fodder!'" :imagename="'tikihelp'" />
     <h1>Upcoming legendary/mythic banners</h1>
+    <TextBubble :bubbletext="note" v-bind:key="`note-legendary-${i}`" v-for="(note, i) in banners.notes.legendary" :imagename="'faehelp'" />
     <div class="bannerList">
       <div v-bind:key="banner.title" v-for="banner in banners.legendary">
         <Banner v-bind:banner="banner" v-bind:heroes="heroes" v-bind:remix="false" />
       </div>
     </div>
     <h1>Upcoming remix legendary banners</h1>
+    <TextBubble :bubbletext="note" v-bind:key="`note-remix-${i}`" v-for="(note, i) in banners.notes.remix" :imagename="'faehelp'" />
     <div class="bannerList">
       <div v-bind:key="`remix-${banner.title}`" v-for="banner in banners.remix">
         <Banner v-bind:banner="banner" v-bind:heroes="heroes"  v-bind:remix="true" />
