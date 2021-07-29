@@ -1,23 +1,6 @@
 {
   "legendary": [
     {
-      "title": "July 2021",
-      "heroes": [
-        "Seliph",
-        "Sigurd",
-        "Reginn",
-        "Dimitri",
-        "Seiros",
-        "BLUE",
-        "Yune",
-        "GREEN",
-        "GREEN",
-        "Mila",
-        "Eir",
-        "COLORLESS"
-      ]
-    },
-    {
       "title": "August 2021",
       "heroes": [
         "Sothis",
@@ -35,7 +18,7 @@
       ]
     },
     {
-      "title": "September 2021",
+      "title": "September 2021*",
       "heroes": [
         "Altina",
         "Hrid",
@@ -48,7 +31,7 @@
         "GREEN",
         "Claude",
         "Leif",
-        "COLORLESS"
+        "Reginn"
       ]
     },
     {
@@ -57,7 +40,7 @@
         "Mirabilis",
         "Roy",
         "RED",
-        "BLUE",
+        "Ullr",
         "BLUE",
         "BLUE",
         "Triandra",
@@ -65,17 +48,17 @@
         "GREEN",
         "Duma",
         "Alm",
-        "COLORLESS"
+        "Mila"
       ]
     },
     {
       "title": "November 2021",
       "heroes": [
         "Plumeria",
-        "RED",
+        "Sigurd",
         "RED",
         "Nott",
-        "BLUE",
+        "Dimitri",
         "BLUE",
         "Dagr",
         "GREEN",
@@ -91,10 +74,27 @@
         "Lif",
         "RED",
         "RED",
-        "BLUE",
+        "Seiros",
         "BLUE",
         "BLUE",
         "Freyja",
+        "GREEN",
+        "GREEN",
+        "Eir",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "January 2022",
+      "heroes": [
+        "Seliph",
+        "RED",
+        "RED",
+        "Peony",
+        "Julia",
+        "BLUE",
+        "GREEN",
         "GREEN",
         "GREEN",
         "COLORLESS",
@@ -103,15 +103,15 @@
       ]
     },
     {
-      "title": "January 2022",
+      "title": "February 2022",
       "heroes": [
         "RED",
         "RED",
         "RED",
-        "Peony",
-        "Julia",
         "BLUE",
-        "GREEN",
+        "BLUE",
+        "BLUE",
+        "Yune",
         "GREEN",
         "GREEN",
         "COLORLESS",

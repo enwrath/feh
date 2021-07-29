@@ -650,5 +650,19 @@
     ],
     "gamepedia": "https://feheroes.fandom.com/wiki/Byleth:_The_F%C3%B3dlan_Star",
     "bst": 166
+  },
+  "Ullr": {
+    "name": "Ullr",
+    "season": "Light",
+    "color": "Blue",
+    "boost": "HP+5 Spd+4",
+    "effect": "Raiding party bonus",
+    "skills": [
+      "Deadeye",
+      "Life and Death 4",
+      "Time's Pulse 3"
+    ],
+    "gamepedia": "https://feheroes.fandom.com/wiki/Ullr:_The_Bowmaster",
+    "bst": 171
   }
 }
