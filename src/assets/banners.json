@@ -1,23 +1,6 @@
 {
   "legendary": [
     {
-      "title": "August 2021",
-      "heroes": [
-        "Sothis",
-        "Lilina",
-        "RED",
-        "Naga",
-        "BLUE",
-        "BLUE",
-        "Edelgard",
-        "Thrasir",
-        "GREEN",
-        "Ashera",
-        "COLORLESS",
-        "COLORLESS"
-      ]
-    },
-    {
       "title": "September 2021*",
       "heroes": [
         "Altina",
@@ -25,13 +8,13 @@
         "Eliwood",
         "Chrom",
         "BLUE",
-        "BLUE",
+        "Reginn",
         "Celica",
         "Byleth",
         "GREEN",
         "Claude",
         "Leif",
-        "Reginn"
+        "COLORLESS"
       ]
     },
     {
@@ -65,14 +48,14 @@
         "GREEN",
         "Corrin",
         "Bramimond",
-        "COLORLESS"
+        "Micaiah"
       ]
     },
     {
       "title": "December 2021",
       "heroes": [
         "Lif",
-        "RED",
+        "Lilina",
         "RED",
         "Seiros",
         "BLUE",
@@ -89,7 +72,7 @@
       "title": "January 2022",
       "heroes": [
         "Seliph",
-        "RED",
+        "Sothis",
         "RED",
         "Peony",
         "Julia",
@@ -97,7 +80,7 @@
         "GREEN",
         "GREEN",
         "GREEN",
-        "COLORLESS",
+        "Ashera",
         "COLORLESS",
         "COLORLESS"
       ]
@@ -112,6 +95,23 @@
         "BLUE",
         "BLUE",
         "Yune",
+        "Edelgard",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "March 2022",
+      "heroes": [
+        "RED",
+        "RED",
+        "RED",
+        "Naga",
+        "BLUE",
+        "BLUE",
+        "Thrasir",
         "GREEN",
         "GREEN",
         "COLORLESS",
@@ -122,19 +122,6 @@
   ],
   "remix": [
     {
-      "title": "July 2021",
-      "heroes": [
-        "Ike",
-        "RED",
-        "Fjorm",
-        "BLUE",
-        "Lyn",
-        "GREEN",
-        "Robin",
-        "COLORLESS"
-      ]
-    },
-    {
       "title": "September 2021",
       "heroes": [
         "Ryoma",
@@ -143,7 +130,7 @@
         "BLUE",
         "Hector",
         "GREEN",
-        "COLORLESS",
+        "Robin",
         "COLORLESS"
       ]
     },
@@ -167,7 +154,7 @@
         "RED",
         "Lucina",
         "BLUE",
-        "GREEN",
+        "Lyn",
         "GREEN",
         "COLORLESS",
         "COLORLESS"
@@ -185,6 +172,19 @@
         "COLORLESS",
         "COLORLESS"
       ]
+    },
+    {
+      "title": "May 2022*",
+      "heroes": [
+        "Ike",
+        "RED",
+        "Fjorm",
+        "BLUE",
+        "GREEN",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS"
+      ]
     }
   ],
   "notes": {
@@ -192,7 +192,7 @@
       "*Reginn is on the September New Hero Revival Banner."
     ],
     "remix": [
-      "*Marth, Tiki, Eirika and Lucina are not confirmed for remix banners."
+      "*Marth, Tiki, Eirika, Lucina, Azura are not confirmed for remixes."
     ]
   }
 }
