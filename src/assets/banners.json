@@ -1,14 +1,14 @@
 {
   "legendary": [
     {
-      "title": "September 2021*",
+      "title": "September 2021",
       "heroes": [
         "Altina",
         "Hrid",
         "Eliwood",
         "Chrom",
         "BLUE",
-        "Reginn",
+        "BLUE",
         "Celica",
         "Byleth",
         "GREEN",
@@ -88,7 +88,7 @@
     {
       "title": "February 2022",
       "heroes": [
-        "RED",
+        "Reginn",
         "RED",
         "RED",
         "BLUE",
@@ -122,20 +122,7 @@
   ],
   "remix": [
     {
-      "title": "September 2021",
-      "heroes": [
-        "Ryoma",
-        "RED",
-        "Ephraim",
-        "BLUE",
-        "Hector",
-        "GREEN",
-        "Robin",
-        "COLORLESS"
-      ]
-    },
-    {
-      "title": "November 2021*",
+      "title": "November 2021",
       "heroes": [
         "Marth",
         "RED",
@@ -143,12 +130,12 @@
         "BLUE",
         "Gunnthra",
         "GREEN",
-        "COLORLESS",
+        "Robin",
         "COLORLESS"
       ]
     },
     {
-      "title": "January 2022*",
+      "title": "January 2022",
       "heroes": [
         "Eirika",
         "RED",
@@ -161,9 +148,22 @@
       ]
     },
     {
-      "title": "March 2022*",
+      "title": "February 2022",
       "heroes": [
+        "Hrid",
         "RED",
+        "BLUE",
+        "BLUE",
+        "Hector",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "March 2022",
+      "heroes": [
+        "Ike",
         "RED",
         "Azura",
         "BLUE",
@@ -174,12 +174,12 @@
       ]
     },
     {
-      "title": "May 2022*",
+      "title": "May 2022",
       "heroes": [
-        "Ike",
+        "Ryoma",
         "RED",
         "Fjorm",
-        "BLUE",
+        "Ephraim",
         "GREEN",
         "GREEN",
         "COLORLESS",
@@ -188,11 +188,7 @@
     }
   ],
   "notes": {
-    "legendary": [
-      "*Reginn is on the September New Hero Revival Banner."
-    ],
-    "remix": [
-      "*Marth, Tiki, Eirika, Lucina, Azura are not confirmed for remixes."
-    ]
+    "legendary": [],
+    "remix": []
   }
 }

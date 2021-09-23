@@ -161,8 +161,7 @@
     "color": "Blue",
     "boost": "HP+3 Def+4",
     "skills": [
-      "Sturdy Stance 2",
-      "Fortify Def 3"
+      "Atk/Def Solo 4"
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Ephraim:_Legendary_Lord",
     "bst": 156
@@ -200,7 +199,8 @@
     "boost": "HP+3 Atk+2",
     "skills": [
       "Distant Counter",
-      "Vengeful Fighter"
+      "Vengeful Fighter 3",
+      "Crafty Fighter 3"
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Hector:_Marquess_of_Ostia",
     "bst": 174
