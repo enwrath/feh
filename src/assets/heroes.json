@@ -680,5 +680,19 @@
     ],
     "gamepedia": "https://feheroes.fandom.com/wiki/Micaiah:_Radiant_Queen",
     "bst": 171
+  },
+  "Otr": {
+    "name": "Otr",
+    "season": "Anima",
+    "color": "Green",
+    "boost": "HP+5 Def+5  ",
+    "effect": "Defensive team bonus",
+    "skills": [
+      "G Duel Cavalry 4",
+      "Flow Refresh 3",
+      "Atk/Def Menace"
+    ],
+    "gamepedia": "https://feheroes.fandom.com/wiki/%C3%93tr:_Kingsbrother",
+    "bst": 174
   }
 }

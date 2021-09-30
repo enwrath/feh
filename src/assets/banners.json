@@ -1,23 +1,6 @@
 {
   "legendary": [
     {
-      "title": "September 2021",
-      "heroes": [
-        "Altina",
-        "Hrid",
-        "Eliwood",
-        "Chrom",
-        "BLUE",
-        "BLUE",
-        "Celica",
-        "Byleth",
-        "GREEN",
-        "Claude",
-        "Leif",
-        "COLORLESS"
-      ]
-    },
-    {
       "title": "October 2021",
       "heroes": [
         "Mirabilis",
@@ -61,9 +44,9 @@
         "BLUE",
         "BLUE",
         "Freyja",
+        "Byleth",
         "GREEN",
-        "GREEN",
-        "Eir",
+        "COLORLESS",
         "COLORLESS",
         "COLORLESS"
       ]
@@ -77,11 +60,11 @@
         "Peony",
         "Julia",
         "BLUE",
-        "GREEN",
+        "Otr",
         "GREEN",
         "GREEN",
         "Ashera",
-        "COLORLESS",
+        "Claude",
         "COLORLESS"
       ]
     },
@@ -91,14 +74,14 @@
         "Reginn",
         "RED",
         "RED",
-        "BLUE",
+        "Naga",
         "BLUE",
         "BLUE",
         "Yune",
         "Edelgard",
         "GREEN",
-        "COLORLESS",
-        "COLORLESS",
+        "Leif",
+        "Eir",
         "COLORLESS"
       ]
     },
@@ -108,10 +91,44 @@
         "RED",
         "RED",
         "RED",
-        "Naga",
+        "Chrom",
         "BLUE",
         "BLUE",
         "Thrasir",
+        "GREEN",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "April 2022",
+      "heroes": [
+        "Altina",
+        "RED",
+        "RED",
+        "BLUE",
+        "BLUE",
+        "BLUE",
+        "Celica",
+        "GREEN",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "May 2022",
+      "heroes": [
+        "Eliwood",
+        "RED",
+        "RED",
+        "BLUE",
+        "BLUE",
+        "BLUE",
+        "GREEN",
         "GREEN",
         "GREEN",
         "COLORLESS",
