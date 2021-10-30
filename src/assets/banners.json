@@ -1,23 +1,6 @@
 {
   "legendary": [
     {
-      "title": "October 2021",
-      "heroes": [
-        "Mirabilis",
-        "Roy",
-        "RED",
-        "Ullr",
-        "BLUE",
-        "BLUE",
-        "Triandra",
-        "Hel",
-        "GREEN",
-        "Duma",
-        "Alm",
-        "Mila"
-      ]
-    },
-    {
       "title": "November 2021",
       "heroes": [
         "Plumeria",
@@ -72,14 +55,14 @@
       "title": "February 2022",
       "heroes": [
         "Reginn",
-        "RED",
+        "Mirabilis",
         "RED",
         "Naga",
-        "BLUE",
-        "BLUE",
+        "Fae",
+        "Chrom",
         "Yune",
         "Edelgard",
-        "GREEN",
+        "Triandra",
         "Leif",
         "Eir",
         "COLORLESS"
@@ -91,14 +74,14 @@
         "RED",
         "RED",
         "RED",
-        "Chrom",
+        "Ullr",
         "BLUE",
         "BLUE",
         "Thrasir",
         "GREEN",
         "GREEN",
-        "COLORLESS",
-        "COLORLESS",
+        "Mila",
+        "Alm",
         "COLORLESS"
       ]
     },
@@ -112,7 +95,7 @@
         "BLUE",
         "BLUE",
         "Celica",
-        "GREEN",
+        "Hel",
         "GREEN",
         "COLORLESS",
         "COLORLESS",
@@ -123,6 +106,23 @@
       "title": "May 2022",
       "heroes": [
         "Eliwood",
+        "RED",
+        "RED",
+        "BLUE",
+        "BLUE",
+        "BLUE",
+        "GREEN",
+        "GREEN",
+        "GREEN",
+        "Duma",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "May 2022",
+      "heroes": [
+        "Roy",
         "RED",
         "RED",
         "BLUE",

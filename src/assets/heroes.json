@@ -694,5 +694,19 @@
     ],
     "gamepedia": "https://feheroes.fandom.com/wiki/%C3%93tr:_Kingsbrother",
     "bst": 174
+  },
+  "Fae": {
+    "name": "Fae",
+    "season": "Earth",
+    "color": "Blue",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 185",
+    "skills": [
+      "Distant Stance",
+      "Dragon's Ire 3",
+      "Def/Res Menace"
+    ],
+    "gamepedia": "https://feheroes.fandom.com/wiki/Fae:_Childlike_Dragon",
+    "bst": 188
   }
 }
