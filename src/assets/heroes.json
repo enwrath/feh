@@ -708,5 +708,44 @@
     ],
     "gamepedia": "https://feheroes.fandom.com/wiki/Fae:_Childlike_Dragon",
     "bst": 188
+  },
+  "Eitri": {
+    "name": "Eitri",
+    "season": "Fire",
+    "color": "Green",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 185",
+    "skills": [
+      "Atk/Res Solo 4",
+      "Atk/Res Rein 3"
+    ],
+    "gamepedia": "https://feheroes.fandom.com/wiki/Eitri:_Youthful_Sage",
+    "bst": 168
+  },
+  "Thorr": {
+    "name": "Thorr",
+    "season": "Astra",
+    "color": "Green",
+    "boost": "HP+5 Def+5",
+    "effect": "Raiding party bonus",
+    "skills": [
+      "Atk/Def Push 4",
+      "Flow Guard 3"
+    ],
+    "gamepedia": "https://feheroes.fandom.com/wiki/Th%C3%B3rr:_War_God",
+    "bst": 178
+  },
+  "Ash": {
+    "name": "Ash",
+    "season": "Light",
+    "color": "Colorless",
+    "boost": "HP+5 Atk+3",
+    "effect": "Raiding party bonus",
+    "skills": [
+      "Atk/Def Unity",
+      "Lull Atk/Def 3"
+    ],
+    "gamepedia": "https://feheroes.fandom.com/wiki/Ash:_Retainer_to_Askr",
+    "bst": 182
   }
 }

@@ -1,23 +1,6 @@
 {
   "legendary": [
     {
-      "title": "November 2021",
-      "heroes": [
-        "Plumeria",
-        "Sigurd",
-        "RED",
-        "Nott",
-        "Dimitri",
-        "BLUE",
-        "Dagr",
-        "GREEN",
-        "GREEN",
-        "Corrin",
-        "Bramimond",
-        "Micaiah"
-      ]
-    },
-    {
       "title": "December 2021",
       "heroes": [
         "Lif",
@@ -38,13 +21,13 @@
       "title": "January 2022",
       "heroes": [
         "Seliph",
-        "Sothis",
+        "RED",
         "RED",
         "Peony",
         "Julia",
         "BLUE",
         "Otr",
-        "GREEN",
+        "Eitri",
         "GREEN",
         "Ashera",
         "Claude",
@@ -56,29 +39,32 @@
       "heroes": [
         "Reginn",
         "Mirabilis",
-        "RED",
+        "Plumeria",
+        "Sothis",
         "Naga",
         "Fae",
         "Chrom",
+        "Dimitri",
+        "Nott",
         "Yune",
         "Edelgard",
         "Triandra",
         "Leif",
         "Eir",
-        "COLORLESS"
+        "Corrin"
       ]
     },
     {
       "title": "March 2022",
       "heroes": [
-        "RED",
+        "Sigurd",
         "RED",
         "RED",
         "Ullr",
         "BLUE",
         "BLUE",
         "Thrasir",
-        "GREEN",
+        "Celica",
         "GREEN",
         "Mila",
         "Alm",
@@ -97,7 +83,7 @@
         "Celica",
         "Hel",
         "GREEN",
-        "COLORLESS",
+        "Micaiah",
         "COLORLESS",
         "COLORLESS"
       ]
@@ -111,46 +97,16 @@
         "BLUE",
         "BLUE",
         "BLUE",
-        "GREEN",
+        "Dagr",
         "GREEN",
         "GREEN",
         "Duma",
-        "COLORLESS",
-        "COLORLESS"
-      ]
-    },
-    {
-      "title": "May 2022",
-      "heroes": [
-        "Roy",
-        "RED",
-        "RED",
-        "BLUE",
-        "BLUE",
-        "BLUE",
-        "GREEN",
-        "GREEN",
-        "GREEN",
-        "COLORLESS",
-        "COLORLESS",
+        "Bramimond",
         "COLORLESS"
       ]
     }
   ],
   "remix": [
-    {
-      "title": "November 2021",
-      "heroes": [
-        "Marth",
-        "RED",
-        "Tiki",
-        "BLUE",
-        "Gunnthra",
-        "GREEN",
-        "Robin",
-        "COLORLESS"
-      ]
-    },
     {
       "title": "January 2022",
       "heroes": [
@@ -160,7 +116,7 @@
         "BLUE",
         "Lyn",
         "GREEN",
-        "COLORLESS",
+        "Robin",
         "COLORLESS"
       ]
     },
@@ -184,7 +140,7 @@
         "RED",
         "Azura",
         "BLUE",
-        "GREEN",
+        "Gunnthra",
         "GREEN",
         "COLORLESS",
         "COLORLESS"
@@ -194,9 +150,22 @@
       "title": "May 2022",
       "heroes": [
         "Ryoma",
-        "RED",
+        "Marth",
         "Fjorm",
         "Ephraim",
+        "GREEN",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "July 2022",
+      "heroes": [
+        "Roy",
+        "RED",
+        "Tiki",
+        "BLUE",
         "GREEN",
         "GREEN",
         "COLORLESS",
@@ -205,7 +174,7 @@
     }
   ],
   "notes": {
-    "legendary": [],
-    "remix": []
+    "legendary": ["February is anniversary and stuff will happen."],
+    "remix": ["Roy is probably remix."]
   }
 }
