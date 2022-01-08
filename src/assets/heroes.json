@@ -135,7 +135,7 @@
     "color": "Red",
     "boost": "HP+3 Atk+2",
     "skills": [
-      "Atk/Spd Solo 3",
+      "Atk/Spd Solo 4",
       "Odd Def Wave 3"
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Eirika:_Graceful_Resolve",
@@ -285,7 +285,7 @@
     "color": "Blue",
     "boost": "HP+3 Spd+3",
     "skills": [
-      "Swift Sparrow 2",
+      "Swift Sparrow 3",
       "Wings of Mercy 3",
       "Distant Guard 3"
     ],
@@ -640,8 +640,8 @@
     "gamepedia": "https://feheroes.fandom.com/wiki/N%C3%B3tt:_Moon%27s_Elegance",
     "bst": 176
   },
-  "Byleth": {
-    "name": "Byleth",
+  "M-Byleth": {
+    "name": "M-Byleth",
     "season": "Water",
     "color": "Green",
     "boost": "HP+3",
@@ -747,5 +747,19 @@
     ],
     "gamepedia": "https://feheroes.fandom.com/wiki/Ash:_Retainer_to_Askr",
     "bst": 182
+  },
+  "F-Byleth": {
+    "name": "F-Byleth",
+    "season": "Wind",
+    "color": "Blue",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 185",
+    "skills": [
+      "Ruptured Sky",
+      "Atk/Spd Ideal 4",
+      "Lull Spd/Res 3"
+    ],
+    "gamepedia": "https://feheroes.fandom.com/wiki/Byleth:_The_F%C3%B3dlan_Light",
+    "bst": 171
   }
 }
