@@ -108,19 +108,6 @@
   ],
   "remix": [
     {
-      "title": "January 2022",
-      "heroes": [
-        "Eirika",
-        "RED",
-        "Lucina",
-        "BLUE",
-        "Lyn",
-        "GREEN",
-        "Robin",
-        "COLORLESS"
-      ]
-    },
-    {
       "title": "February 2022",
       "heroes": [
         "Hrid",
@@ -165,6 +152,32 @@
         "Roy",
         "RED",
         "Tiki",
+        "Lucina",
+        "Lyn",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "September 2022",
+      "heroes": [
+        "RED",
+        "RED",
+        "BLUE",
+        "BLUE",
+        "GREEN",
+        "GREEN",
+        "Robin",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "November 2022",
+      "heroes": [
+        "Eirika",
+        "RED",
+        "BLUE",
         "BLUE",
         "GREEN",
         "GREEN",
