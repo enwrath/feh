@@ -1,23 +1,6 @@
 {
   "legendary": [
     {
-      "title": "January 2022",
-      "heroes": [
-        "Seliph",
-        "RED",
-        "RED",
-        "Peony",
-        "Julia",
-        "BLUE",
-        "Otr",
-        "Eitri",
-        "GREEN",
-        "Ashera",
-        "Claude",
-        "COLORLESS"
-      ]
-    },
-    {
       "title": "February 2022",
       "heroes": [
         "Reginn",
@@ -60,14 +43,14 @@
         "Altina",
         "Mirabilis",
         "RED",
-        "BLUE",
+        "Julia",
         "BLUE",
         "BLUE",
         "Hel",
         "Thorr",
         "M-Byleth",
         "Micaiah",
-        "COLORLESS",
+        "Elimine",
         "COLORLESS"
       ]
     },
@@ -81,11 +64,11 @@
         "BLUE",
         "BLUE",
         "Dagr",
-        "GREEN",
+        "Otr",
         "GREEN",
         "Duma",
         "Bramimond",
-        "COLORLESS"
+        "Claude"
       ]
     },
     {
@@ -98,6 +81,40 @@
         "BLUE",
         "BLUE",
         "Freyja",
+        "Eitri",
+        "GREEN",
+        "COLORLESS",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "July 2022",
+      "heroes": [
+        "RED",
+        "RED",
+        "RED",
+        "Peony",
+        "BLUE",
+        "BLUE",
+        "GREEN",
+        "GREEN",
+        "GREEN",
+        "Ashera",
+        "COLORLESS",
+        "COLORLESS"
+      ]
+    },
+    {
+      "title": "August 2022",
+      "heroes": [
+        "Seliph",
+        "RED",
+        "RED",
+        "BLUE",
+        "BLUE",
+        "BLUE",
+        "GREEN",
         "GREEN",
         "GREEN",
         "COLORLESS",

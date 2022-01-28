@@ -761,5 +761,19 @@
     ],
     "gamepedia": "https://feheroes.fandom.com/wiki/Byleth:_The_F%C3%B3dlan_Light",
     "bst": 171
+  },
+  "Elimine": {
+    "name": "Elimine",
+    "season": "Astra",
+    "color": "Colorless",
+    "boost": "HP+5 Spd+4",
+    "effect": "Raiding party bonus",
+    "skills": [
+      "Nudge+",
+      "Atk/Res Push 4",
+      "Atk/Spd Far Trace 3"
+    ],
+    "gamepedia": "https://feheroes.fandom.com/wiki/Elimine:_Scouring_Saint",
+    "bst": 167
   }
 }
