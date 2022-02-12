@@ -123,7 +123,7 @@
     "color": "Colorless",
     "boost": "HP+5 Res+5",
     "skills": [
-      "Swift Sparrow 2",
+      "Atk/Res Unity",
       "Mystic Boost 3"
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Eir:_Merciful_Death",
@@ -224,7 +224,7 @@
     "boost": "HP+3 Def+4",
     "skills": [
       "Distant Counter",
-      "Atk Smoke 3"
+      "Atk/Def Menace"
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Hr%C3%ADd:_Icy_Blade",
     "bst": 157

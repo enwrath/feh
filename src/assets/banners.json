@@ -33,8 +33,8 @@
         "Celica",
         "GREEN",
         "Mila",
-        "Alm",
-        "Ash"
+        "Ash",
+        "COLORLESS"
       ]
     },
     {
@@ -44,7 +44,7 @@
         "Mirabilis",
         "RED",
         "Julia",
-        "BLUE",
+        "Dimitri",
         "BLUE",
         "Hel",
         "Thorr",
@@ -66,9 +66,9 @@
         "Dagr",
         "Otr",
         "GREEN",
-        "Duma",
         "Bramimond",
-        "Claude"
+        "Claude",
+        "COLORLESS"
       ]
     },
     {
@@ -121,22 +121,26 @@
         "COLORLESS",
         "COLORLESS"
       ]
-    }
-  ],
-  "remix": [
+    },
     {
-      "title": "February 2022",
+      "title": "September 2022",
       "heroes": [
-        "Hrid",
+        "Plumeria",
+        "RED",
         "RED",
         "BLUE",
         "BLUE",
-        "Hector",
+        "BLUE",
         "GREEN",
+        "GREEN",
+        "GREEN",
+        "COLORLESS",
         "COLORLESS",
         "COLORLESS"
       ]
-    },
+    }
+  ],
+  "remix": [
     {
       "title": "March 2022",
       "heroes": [
@@ -146,7 +150,7 @@
         "BLUE",
         "Gunnthra",
         "GREEN",
-        "COLORLESS",
+        "Alm",
         "COLORLESS"
       ]
     },
@@ -157,9 +161,9 @@
         "Marth",
         "Fjorm",
         "Ephraim",
+        "Hector",
         "GREEN",
-        "GREEN",
-        "COLORLESS",
+        "Duma",
         "COLORLESS"
       ]
     },
@@ -171,17 +175,17 @@
         "Tiki",
         "Lucina",
         "Lyn",
-        "GREEN",
-        "COLORLESS",
+        "Yune",
+        "Eir",
         "COLORLESS"
       ]
     },
     {
       "title": "September 2022",
       "heroes": [
-        "RED",
-        "RED",
-        "BLUE",
+        "Eirika",
+        "Hrid",
+        "Naga",
         "BLUE",
         "GREEN",
         "GREEN",
@@ -204,7 +208,7 @@
     }
   ],
   "notes": {
-    "legendary": ["February is anniversary and stuff will happen."],
-    "remix": ["Roy is probably remix."]
+    "legendary": [],
+    "remix": []
   }
 }
