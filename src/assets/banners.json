@@ -1,26 +1,6 @@
 {
   "legendary": [
     {
-      "title": "February 2022",
-      "heroes": [
-        "Reginn",
-        "Mirabilis",
-        "Plumeria",
-        "Sothis",
-        "Naga",
-        "Fae",
-        "Chrom",
-        "Dimitri",
-        "Nott",
-        "Yune",
-        "Edelgard",
-        "Triandra",
-        "Leif",
-        "Eir",
-        "Corrin"
-      ]
-    },
-    {
       "title": "March 2022",
       "heroes": [
         "Sigurd",
@@ -61,11 +41,11 @@
         "RED",
         "RED",
         "F-Byleth",
-        "BLUE",
+        "Caeda",
         "BLUE",
         "Dagr",
         "Otr",
-        "GREEN",
+        "Edelgard",
         "Bramimond",
         "Claude",
         "COLORLESS"
@@ -75,7 +55,7 @@
       "title": "June 2022",
       "heroes": [
         "Lif",
-        "RED",
+        "Reginn",
         "RED",
         "BLUE",
         "BLUE",
@@ -83,7 +63,7 @@
         "Freyja",
         "Eitri",
         "GREEN",
-        "COLORLESS",
+        "Leif",
         "COLORLESS",
         "COLORLESS"
       ]
@@ -111,13 +91,13 @@
         "Seliph",
         "RED",
         "RED",
+        "Fae",
         "BLUE",
         "BLUE",
-        "BLUE",
+        "Triandra",
         "GREEN",
         "GREEN",
-        "GREEN",
-        "COLORLESS",
+        "Corrin",
         "COLORLESS",
         "COLORLESS"
       ]
@@ -126,7 +106,7 @@
       "title": "September 2022",
       "heroes": [
         "Plumeria",
-        "RED",
+        "Sothis",
         "RED",
         "BLUE",
         "BLUE",
@@ -192,23 +172,10 @@
         "Robin",
         "COLORLESS"
       ]
-    },
-    {
-      "title": "November 2022",
-      "heroes": [
-        "Eirika",
-        "RED",
-        "BLUE",
-        "BLUE",
-        "GREEN",
-        "GREEN",
-        "COLORLESS",
-        "COLORLESS"
-      ]
     }
   ],
   "notes": {
-    "legendary": [],
+    "legendary": ["Nott has revival banner in March."],
     "remix": []
   }
 }

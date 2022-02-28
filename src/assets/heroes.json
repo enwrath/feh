@@ -775,5 +775,18 @@
     ],
     "gamepedia": "https://feheroes.fandom.com/wiki/Elimine:_Scouring_Saint",
     "bst": 167
+  },
+  "Caeda": {
+    "name": "Caeda",
+    "season": "Water",
+    "color": "Blue",
+    "boost": "HP+3 Spd+3",
+    "effect": "Pair Up | Duel 190",
+    "skills": [
+      "Distant Storm",
+      "Atk/Def Rein 3"
+    ],
+    "gamepedia": "https://feheroes.fandom.com/wiki/Caeda:_Beloved_Queen",
+    "bst": 178
   }
 }
