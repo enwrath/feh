@@ -57,7 +57,7 @@
         "Lif",
         "Reginn",
         "RED",
-        "BLUE",
+        "Nott",
         "BLUE",
         "BLUE",
         "Freyja",
@@ -175,7 +175,7 @@
     }
   ],
   "notes": {
-    "legendary": ["Nott has revival banner in March."],
+    "legendary": [],
     "remix": []
   }
 }

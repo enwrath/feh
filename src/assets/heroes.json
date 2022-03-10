@@ -46,9 +46,9 @@
     "color": "Blue",
     "boost": "HP+3 Res+4",
     "skills": [
+      "Atk/Spd Push 4",
       "B Duel Flying 3",
-      "Aerobatics 3",
-      "Atk Tactic 3"
+      "Aerobatics 3"
     ],
     "gamepedia": "https://feheroes.gamepedia.com/Azura:_Vallite_Songstress",
     "bst": 139
