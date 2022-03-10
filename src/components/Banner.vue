@@ -1,8 +1,9 @@
 <template>
   <div>
-    <h2>{{banner.title}}</h2>
+    <h2 v-if="!admin">{{banner.title}}</h2>
+    <input v-if="admin" v-model="banner.title"/>
     <div v-bind:class="remix ? 'remixHeroes' : 'bannerHeroes'">
-      <BannerSlot v-bind:key="`${i}-${hero}`" v-for="(hero, i) in banner.heroes" v-bind:hero="heroes[hero]" v-bind:remix="remix" />
+      <BannerSlot v-bind:key="`${i}-${hero}`" v-for="(hero, i) in banner.heroes" v-bind:hero="heroes[hero]" v-bind:remix="remix" :admin="admin" />
     </div>
   </div>
 </template>
@@ -18,7 +19,8 @@ export default {
   props: {
     banner: {},
     heroes: {},
-    remix: Boolean
+    remix: Boolean,
+    admin: Boolean
   }
 }
 </script>

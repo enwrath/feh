@@ -1,0 +1,32 @@
+{
+  "legendary": {
+    "title": "Month Year",
+    "heroes": [
+      "RED",
+      "RED",
+      "RED",
+      "BLUE",
+      "BLUE",
+      "BLUE",
+      "GREEN",
+      "GREEN",
+      "GREEN",
+      "COLORLESS",
+      "COLORLESS",
+      "COLORLESS"
+    ]
+  },
+  "remix": {
+    "title": "Month Year",
+    "heroes": [
+      "RED",
+      "RED",
+      "BLUE",
+      "BLUE",
+      "GREEN",
+      "GREEN",
+      "COLORLESS",
+      "COLORLESS"
+    ]
+  }
+}

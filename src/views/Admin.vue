@@ -1,18 +1,21 @@
 <template>
   <div>
-    <TextBubble :bubbletext="'You can click the heroes to check their seasons and more! Click again to see their fodder!'" :imagename="'tikihelp'" />
+    <h1>ADMIN MODE ON</h1>
     <h1>Upcoming legendary/mythic banners</h1>
     <TextBubble :bubbletext="note" v-bind:key="`note-legendary-${i}`" v-for="(note, i) in banners.notes.legendary" :imagename="'faehelp'" />
     <div class="bannerList">
-      <div v-bind:key="banner.title" v-for="banner in banners.legendary">
-        <Banner v-bind:banner="banner" v-bind:heroes="heroes" v-bind:remix="false" :admin="false" />
+      <div v-bind:key="`legendary-${i}`" v-for="(banner, i) in banners.legendary">
+        <Banner v-bind:banner="banner" v-bind:heroes="heroes" v-bind:remix="false" :admin="true" />
+      </div>
+      <div>
+        <button @click="newBanner(false)">Add new banner</button>
       </div>
     </div>
     <h1>Upcoming remix legendary banners</h1>
     <TextBubble :bubbletext="note" v-bind:key="`note-remix-${i}`" v-for="(note, i) in banners.notes.remix" :imagename="'faehelp'" />
     <div class="bannerList">
       <div v-bind:key="`remix-${banner.title}`" v-for="banner in banners.remix">
-        <Banner v-bind:banner="banner" v-bind:heroes="heroes"  v-bind:remix="true" :admin="false" />
+        <Banner v-bind:banner="banner" v-bind:heroes="heroes"  v-bind:remix="true" :admin="true" />
       </div>
     </div>
   </div>
@@ -21,20 +24,29 @@
 <script>
 
 // @ is an alias to /src
-import Banner from '@/components/Banner.vue'
-import TextBubble from '@/components/TextBubble.vue'
+import Banner from '@/components/Banner.vue';
+import TextBubble from '@/components/TextBubble.vue';
 import bannerjson from "@/assets/banners.json";
 import herojson from "@/assets/heroes.json";
+import defaultsjson from "@/assets/defaults.json";
 
 export default {
-  name: 'Home',
+  name: 'AdminView',
   components: {
     Banner, TextBubble
   },
   data() {
     return {
       heroes: herojson,
-      banners: bannerjson
+      banners: bannerjson,
+      defaults: defaultsjson
+    }
+  },
+  methods: {
+    newBanner: function(remix) {
+      if (!remix) {
+        this.banners.legendary.push(JSON.parse(JSON.stringify(this.defaults.legendary)))
+      }
     }
   }
 }

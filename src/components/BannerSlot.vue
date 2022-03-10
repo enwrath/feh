@@ -20,7 +20,8 @@ export default {
   },
   props: {
     hero: {},
-    remix: Boolean
+    remix: Boolean,
+    admin: Boolean
   },
   data() {
     return {
@@ -28,7 +29,12 @@ export default {
     }
   },
   methods: {
+    changeHero: function() {
+      //TODO: allow user to select another hero
+      console.log("List of heroes popup/newpage/wtf???")
+    },
     nextPage: function() {
+      if (this.remix) this.changeHero()
       this.currPage += 1;
       this.currPage %= 3;
     }
