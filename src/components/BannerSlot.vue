@@ -29,14 +29,12 @@ export default {
     }
   },
   methods: {
-    changeHero: function() {
-      //TODO: allow user to select another hero
-      console.log("List of heroes popup/newpage/wtf???")
-    },
     nextPage: function() {
-      if (this.remix) this.changeHero()
-      this.currPage += 1;
-      this.currPage %= 3;
+      if (this.admin) this.$emit('change-hero')
+      else {
+        this.currPage += 1;
+        this.currPage %= 3;
+      }
     }
   }
 }

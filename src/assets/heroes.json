@@ -1,18 +1,18 @@
 {
   "RED": {
-    "name": "Red",
+    "name": "RED",
     "color": "Red"
   },
   "BLUE": {
-    "name": "Blue",
+    "name": "BLUE",
     "color": "Blue"
   },
   "GREEN": {
-    "name": "Green",
+    "name": "GREEN",
     "color": "Green"
   },
   "COLORLESS": {
-    "name": "Colorless",
+    "name": "COLORLESS",
     "color": "Colorless"
   },
   "Alm": {

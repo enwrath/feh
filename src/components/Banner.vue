@@ -1,9 +1,15 @@
 <template>
   <div>
     <h2 v-if="!admin">{{banner.title}}</h2>
-    <input v-if="admin" v-model="banner.title"/>
+    <div v-if="admin">
+      <button @click="$emit('move-left')">&#129044;</button>
+      <input v-model="banner.title"/>
+      <button @click="$emit('remove-banner')">DELETE BANNER</button>
+      <button @click="$emit('move-right')">&#10142;</button>
+    </div>
     <div v-bind:class="remix ? 'remixHeroes' : 'bannerHeroes'">
-      <BannerSlot v-bind:key="`${i}-${hero}`" v-for="(hero, i) in banner.heroes" v-bind:hero="heroes[hero]" v-bind:remix="remix" :admin="admin" />
+      <BannerSlot v-bind:key="`${i}-${hero}`" v-for="(hero, i) in banner.heroes" v-bind:hero="heroes[hero]" v-bind:remix="remix"
+      :admin="admin" @change-hero="$emit('change-hero', {slot: i})" />
     </div>
   </div>
 </template>
