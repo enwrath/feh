@@ -1,8 +1,10 @@
 <template>
   <div>
-    <h1>ADMIN MODE ON</h1>
+    <h1>ADMIN MODE ON | TODO: image in heroedit/add</h1>
+    <button @click="exportBannerJSON">Copy banners JSON</button>
     <HeroSelector v-if="selectHero" :heroes="heroes" :oldHero="heroChange.name"
-    @select-cancel="selectHero=false" @select-confirm="changeSlot"></HeroSelector>
+    @select-confirm="changeSlot"
+    @add-hero="addHero" @del-hero="delHero"></HeroSelector>
     <div v-else>
 
       <h1>Upcoming legendary/mythic banners</h1>
@@ -21,7 +23,7 @@
       <div class="bannerList">
         <div v-bind:key="`remix-${i}`" v-for="(banner, i) in banners.remix">
           <Banner v-bind:banner="banner" v-bind:heroes="heroes"  v-bind:remix="true" :admin="true" @remove-banner="removeBanner(i, true)"
-          @move-left="moveBanner(i, false, true)" @move-right="moveBanner(i, true, true)" />
+          @move-left="moveBanner(i, false, true)" @move-right="moveBanner(i, true, true)" @change-hero="changeHero(i, true, ...arguments)"/>
         </div>
         <div>
           <button @click="newBanner(true)">Add new banner</button>
@@ -56,6 +58,37 @@ export default {
     }
   },
   methods: {
+    exportBannerJSON: function() {
+      let result = JSON.stringify(this.banners);
+      navigator.clipboard.writeText(result).then(function() {
+        console.log("copied data to clipboard");
+      }, function() {
+        console.log("couldn't copy to clipboard, pasting to console:");
+        console.log(result);
+      });
+    },
+    delHero: function(e) {
+      if (e in this.heroes) {
+        delete this.heroes[e];
+      }
+    },
+    addHero: function(e) {
+      if (!(e in this.heroes)) {
+        let h = JSON.parse(JSON.stringify(this.defaults.hero));
+        h.name = e;
+        this.heroes[e] = h;
+      }
+    },
+    heroSkillsFix: function() {
+      //After editing skills won't be in array anymore, fix it
+      for (const i of Object.keys(this.heroes)) {
+        const hero = this.heroes[i];
+        if (!("skills" in hero)) continue;
+        if (!Array.isArray(hero.skills)) {
+          hero.skills = hero.skills.split(",");
+        }
+      }
+    },
     changeSlot: function(e) {
       if (this.heroChange.remix) {
         this.banners.remix[this.heroChange.index].heroes[this.heroChange.slot] = e;
@@ -63,6 +96,7 @@ export default {
         this.banners.legendary[this.heroChange.index].heroes[this.heroChange.slot] = e;
       }
       this.selectHero = false;
+      this.heroSkillsFix();
     },
     changeHero: function(index, remix, e) {
       this.heroChange.slot = e.slot;

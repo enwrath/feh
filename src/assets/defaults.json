@@ -28,5 +28,16 @@
       "COLORLESS",
       "COLORLESS"
     ]
+  },
+  "hero": {
+    "name": "Name",
+    "season": "Earth",
+    "color": "Red",
+    "boost": "HP+3",
+    "effect": "Pair Up | Duel 190",
+    "skills": [
+    ],
+    "gamepedia": "url",
+    "bst": 170
   }
 }

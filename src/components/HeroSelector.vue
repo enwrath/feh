@@ -1,9 +1,39 @@
 <template>
   <div>
-    <button @click="$emit('select-cancel')">CANCEL AND RETURN</button>
-    {{ currHero }}
-    <button @click="$emit('select-confirm', currHero)">SAVE AND RETURN</button>
+    <button @click="$emit('select-confirm', currHero)">Select this hero</button>
+    <br />
+    <img :src="`./images/${currHero}.webp`" :class="heroes[currHero].color" />
+    <span>Name: </span><input v-model="heroes[currHero].name" disabled />
+    <span>Color: </span>
+    <select v-model="heroes[currHero].color">
+      <option value="Red">Red</option>
+      <option value="Blue">Blue</option>
+      <option value="Green">Green</option>
+      <option value="Colorless">Colorless</option>
+    </select>
+    <span>Season: </span>
+    <select v-model="heroes[currHero].season">
+      <option value="Earth">Earth</option>
+      <option value="Fire">Fire</option>
+      <option value="Water">Water</option>
+      <option value="Wind">Wind</option>
+      <option value="Light">Light</option>
+      <option value="Dark">Dark</option>
+      <option value="Astra">Astra</option>
+      <option value="Anima">Anima</option>
+    </select>
+    <span>BST: </span><input v-model="heroes[currHero].bst" type="number" /> <br />
+    <span>Boost: </span><input v-model="heroes[currHero].boost"  />
+    <span>Effect: </span><input v-model="heroes[currHero].effect"  />
+    <span>Wikilink: </span><input v-model="heroes[currHero].gamepedia"  /> <br />
+    <span>Skills: (separate with ,) </span><input v-model="heroes[currHero].skills"  />
+
+    <button @click="deleteHero">DELETE HERO</button>
     <hr />
+    <div>
+      <span>Name</span><input v-model="newHero" />
+      <button @click="addHero">Add new hero</button>
+    </div>
     <img @click="currHero=hero.name" v-bind:key="`img-${i}-${hero}`" v-for="(hero, i) in heroes" :src="`./images/${hero.name}.webp`" :class="hero.color" />
   </div>
 </template>
@@ -17,7 +47,18 @@ export default {
   },
   data() {
     return {
-      currHero: this.oldHero
+      currHero: this.oldHero,
+      newHero: "NewHero"
+    }
+  },
+  methods: {
+    addHero: function() {
+      this.$emit("add-hero", this.newHero);
+      this.currHero = this.newHero;
+    },
+    deleteHero: function() {
+      this.$emit("del-hero", this.currHero);
+      this.currHero = "RED";
     }
   }
 }
