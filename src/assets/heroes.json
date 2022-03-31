@@ -788,5 +788,18 @@
     ],
     "gamepedia": "https://feheroes.fandom.com/wiki/Caeda:_Beloved_Queen",
     "bst": 178
+  },
+  "Nanna": {
+    "name": "Nanna",
+    "season": "Earth",
+    "color": "Red",
+    "boost": "HP+3 Res+4",
+    "effect": "Pair Up | Duel 190",
+    "skills": [
+      "Atk/Spd Push 4",
+      "Atk/Spd Menace"
+    ],
+    "gamepedia": "https://feheroes.fandom.com/wiki/Nanna:_Beloved_Princess",
+    "bst": 173
   }
 }
