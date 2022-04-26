@@ -3,7 +3,7 @@
     <div class="imgDiv">
 
 
-      <img :style="{visibility: currPage === 0 || !('season' in hero) ? 'visible' : 'hidden'}" v-bind:src="`./images/${hero.name}.webp`" />
+      <img :style="{visibility: currPage === 0 || !('season' in hero) ? 'visible' : 'hidden'}" v-bind:src="`${baseUrl}${hero.name}.webp`" />
 
       <HeroDetails v-if="currPage !== 0 && 'season' in hero" :hero="hero" :currPage="currPage" />
     </div>
@@ -25,7 +25,8 @@ export default {
   },
   data() {
     return {
-      currPage: 0
+      currPage: 0,
+      baseUrl: "https://resilient-belekoy-cf9d2e.netlify.app/feh/images/"
     }
   },
   methods: {
