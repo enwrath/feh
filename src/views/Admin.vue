@@ -1,32 +1,38 @@
 <template>
   <div>
-    <h1>ADMIN MODE ON | TODO: image in heroedit/add</h1>
-    <button @click="exportBannerJSON">Copy banners JSON</button>
-    <HeroSelector v-if="selectHero" :heroes="heroes" :oldHero="heroChange.name"
-    @select-confirm="changeSlot"
-    @add-hero="addHero" @del-hero="delHero"></HeroSelector>
-    <div v-else>
+    <div v-if="!loadComplete">
+      Loading...
+    </div>
+    <div v-if="loadComplete">
+      <h1>ADMIN MODE ON</h1>
+      <button @click="exportBannerJSON">Copy banners JSON</button>
+      <button @click="exportHeroesJSON">Copy heroes JSON</button>
+      <HeroSelector v-if="selectHero" :heroes="heroes" :oldHero="heroChange.name"
+      @select-confirm="changeSlot"
+      @add-hero="addHero" @del-hero="delHero"></HeroSelector>
+      <div v-else>
 
-      <h1>Upcoming legendary/mythic banners</h1>
-      <TextBubble :bubbletext="note" v-bind:key="`note-legendary-${i}`" v-for="(note, i) in banners.notes.legendary" :imagename="'faehelp'" />
-      <div class="bannerList">
-        <div v-bind:key="`legendary-${i}`" v-for="(banner, i) in banners.legendary">
-          <Banner v-bind:banner="banner" v-bind:heroes="heroes" v-bind:remix="false" :admin="true" @remove-banner="removeBanner(i, false)"
-          @move-left="moveBanner(i, false, false)" @move-right="moveBanner(i, true, false)" @change-hero="changeHero(i, false, ...arguments)"/>
+        <h1>Upcoming legendary/mythic banners</h1>
+        <TextBubble :bubbletext="note" v-bind:key="`note-legendary-${i}`" v-for="(note, i) in banners.notes.legendary" :imagename="'faehelp'" />
+        <div class="bannerList">
+          <div v-bind:key="`legendary-${i}`" v-for="(banner, i) in banners.legendary">
+            <Banner v-bind:banner="banner" v-bind:heroes="heroes" v-bind:remix="false" :admin="true" @remove-banner="removeBanner(i, false)"
+            @move-left="moveBanner(i, false, false)" @move-right="moveBanner(i, true, false)" @change-hero="changeHero(i, false, ...arguments)"/>
+          </div>
+          <div>
+            <button @click="newBanner(false)">Add new banner</button>
+          </div>
         </div>
-        <div>
-          <button @click="newBanner(false)">Add new banner</button>
-        </div>
-      </div>
-      <h1>Upcoming remix legendary banners</h1>
-      <TextBubble :bubbletext="note" v-bind:key="`note-remix-${i}`" v-for="(note, i) in banners.notes.remix" :imagename="'faehelp'" />
-      <div class="bannerList">
-        <div v-bind:key="`remix-${i}`" v-for="(banner, i) in banners.remix">
-          <Banner v-bind:banner="banner" v-bind:heroes="heroes"  v-bind:remix="true" :admin="true" @remove-banner="removeBanner(i, true)"
-          @move-left="moveBanner(i, false, true)" @move-right="moveBanner(i, true, true)" @change-hero="changeHero(i, true, ...arguments)"/>
-        </div>
-        <div>
-          <button @click="newBanner(true)">Add new banner</button>
+        <h1>Upcoming remix legendary banners</h1>
+        <TextBubble :bubbletext="note" v-bind:key="`note-remix-${i}`" v-for="(note, i) in banners.notes.remix" :imagename="'faehelp'" />
+        <div class="bannerList">
+          <div v-bind:key="`remix-${i}`" v-for="(banner, i) in banners.remix">
+            <Banner v-bind:banner="banner" v-bind:heroes="heroes"  v-bind:remix="true" :admin="true" @remove-banner="removeBanner(i, true)"
+            @move-left="moveBanner(i, false, true)" @move-right="moveBanner(i, true, true)" @change-hero="changeHero(i, true, ...arguments)"/>
+          </div>
+          <div>
+            <button @click="newBanner(true)">Add new banner</button>
+          </div>
         </div>
       </div>
     </div>
@@ -39,8 +45,6 @@
 import Banner from '@/components/Banner.vue';
 import HeroSelector from '@/components/HeroSelector.vue';
 import TextBubble from '@/components/TextBubble.vue';
-import bannerjson from "@/assets/banners.json";
-import herojson from "@/assets/heroes.json";
 import defaultsjson from "@/assets/defaults.json";
 
 export default {
@@ -50,16 +54,42 @@ export default {
   },
   data() {
     return {
-      heroes: herojson,
-      banners: bannerjson,
+      heroes: {},
+      banners: {},
       defaults: defaultsjson,
       selectHero: false,
       heroChange: {name: "RED", index: 0, slot: 0, remix: false}
     }
   },
+  created: function () {
+    fetch("https://resilient-belekoy-cf9d2e.netlify.app/feh/json/heroes.json")
+      .then(r => r.json())
+      .then(json => {
+        this.heroes = json;
+    });
+    fetch("https://resilient-belekoy-cf9d2e.netlify.app/feh/json/banners.json")
+      .then(r => r.json())
+      .then(json => {
+        this.banners = json;
+    });
+  },
+  computed: {
+    loadComplete: function () {
+      return Object.keys(this.heroes).length > 0 && Object.keys(this.banners).length > 0;
+    }
+  },
   methods: {
     exportBannerJSON: function() {
       let result = JSON.stringify(this.banners);
+      navigator.clipboard.writeText(result).then(function() {
+        console.log("copied data to clipboard");
+      }, function() {
+        console.log("couldn't copy to clipboard, pasting to console:");
+        console.log(result);
+      });
+    },
+    exportHeroesJSON: function() {
+      let result = JSON.stringify(this.heroes);
       navigator.clipboard.writeText(result).then(function() {
         console.log("copied data to clipboard");
       }, function() {
