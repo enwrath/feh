@@ -39,8 +39,6 @@
 import Banner from '@/components/Banner.vue';
 import HeroSelector from '@/components/HeroSelector.vue';
 import TextBubble from '@/components/TextBubble.vue';
-import bannerjson from "@/assets/banners.json";
-import herojson from "@/assets/heroes.json";
 import defaultsjson from "@/assets/defaults.json";
 
 export default {
@@ -50,8 +48,8 @@ export default {
   },
   data() {
     return {
-      heroes: herojson,
-      banners: bannerjson,
+      heroes: {},
+      banners: {},
       defaults: defaultsjson,
       selectHero: false,
       heroChange: {name: "RED", index: 0, slot: 0, remix: false}
@@ -133,6 +131,23 @@ export default {
         this.banners.remix.splice(newIndex, 1, this.banners.remix[index])
         this.banners.remix.splice(index, 1, old)
       }
+    }
+  },
+  created: function () {
+    fetch("https://resilient-belekoy-cf9d2e.netlify.app/feh/json/heroes.json")
+      .then(r => r.json())
+      .then(json => {
+        this.heroes = json;
+    });
+    fetch("https://resilient-belekoy-cf9d2e.netlify.app/feh/json/banners.json")
+      .then(r => r.json())
+      .then(json => {
+        this.banners = json;
+    });
+  },
+  computed: {
+    loadComplete: function () {
+      return Object.keys(this.heroes).length > 0 && Object.keys(this.banners).length > 0;
     }
   }
 }
