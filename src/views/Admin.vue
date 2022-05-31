@@ -164,23 +164,6 @@ export default {
         this.banners.remix.splice(index, 1, old)
       }
     }
-  },
-  created: function () {
-    fetch("https://resilient-belekoy-cf9d2e.netlify.app/feh/json/heroes.json")
-      .then(r => r.json())
-      .then(json => {
-        this.heroes = json;
-    });
-    fetch("https://resilient-belekoy-cf9d2e.netlify.app/feh/json/banners.json")
-      .then(r => r.json())
-      .then(json => {
-        this.banners = json;
-    });
-  },
-  computed: {
-    loadComplete: function () {
-      return Object.keys(this.heroes).length > 0 && Object.keys(this.banners).length > 0;
-    }
   }
 }
 </script>
