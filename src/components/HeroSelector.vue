@@ -2,7 +2,7 @@
   <div>
     <button @click="$emit('select-confirm', currHero)">Select this hero</button>
     <br />
-    <img :src="`./images/${currHero}.webp`" :class="heroes[currHero].color" />
+    <img :src="`${baseUrl}${currHero}.webp`" :class="heroes[currHero].color" />
     <span>Name: </span><input v-model="heroes[currHero].name" disabled />
     <span>Color: </span>
     <select v-model="heroes[currHero].color">
@@ -48,7 +48,8 @@ export default {
   data() {
     return {
       currHero: this.oldHero,
-      newHero: "NewHero"
+      newHero: "NewHero",
+      baseUrl: "https://resilient-belekoy-cf9d2e.netlify.app/feh/images/"
     }
   },
   methods: {
