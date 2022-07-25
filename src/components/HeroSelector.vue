@@ -34,7 +34,7 @@
       <span>Name</span><input v-model="newHero" />
       <button @click="addHero">Add new hero</button>
     </div>
-    <img @click="currHero=hero.name" v-bind:key="`img-${i}-${hero}`" v-for="(hero, i) in heroes" :src="`./images/${hero.name}.webp`" :class="hero.color" />
+    <img @click="currHero=hero.name" v-bind:key="`img-${i}-${hero}`" v-for="(hero, i) in heroes" :src="`${baseUrl}${hero.name}.webp`" :class="hero.color" />
   </div>
 </template>
 
