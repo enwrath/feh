@@ -16,8 +16,9 @@
         <TextBubble :bubbletext="note" v-bind:key="`note-legendary-${i}`" v-for="(note, i) in banners.notes.legendary" :imagename="'faehelp'" />
         <div class="bannerList">
           <div v-bind:key="`legendary-${i}`" v-for="(banner, i) in banners.legendary">
-            <Banner v-bind:banner="banner" v-bind:heroes="heroes" v-bind:remix="false" :admin="true" @remove-banner="removeBanner(i, false)"
-            @move-left="moveBanner(i, false, false)" @move-right="moveBanner(i, true, false)" @change-hero="changeHero(i, false, ...arguments)"/>
+            <Banner v-bind:banner="banner" v-bind:heroes="heroes" :admin="true" @remove-banner="removeBanner(i, false)"
+            @move-left="moveBanner(i, false, false)" @move-right="moveBanner(i, true, false)" @change-hero="changeHero(i, false, ...arguments)"
+            @del-col="deleteCol(i, false)" @add-col="addCol(i, false)" />
           </div>
           <div>
             <button @click="newBanner(false)">Add new banner</button>
@@ -27,8 +28,9 @@
         <TextBubble :bubbletext="note" v-bind:key="`note-remix-${i}`" v-for="(note, i) in banners.notes.remix" :imagename="'faehelp'" />
         <div class="bannerList">
           <div v-bind:key="`remix-${i}`" v-for="(banner, i) in banners.remix">
-            <Banner v-bind:banner="banner" v-bind:heroes="heroes"  v-bind:remix="true" :admin="true" @remove-banner="removeBanner(i, true)"
-            @move-left="moveBanner(i, false, true)" @move-right="moveBanner(i, true, true)" @change-hero="changeHero(i, true, ...arguments)"/>
+            <Banner v-bind:banner="banner" v-bind:heroes="heroes" :admin="true" @remove-banner="removeBanner(i, true)"
+            @move-left="moveBanner(i, false, true)" @move-right="moveBanner(i, true, true)" @change-hero="changeHero(i, true, ...arguments)"
+            @del-col="deleteCol(i, true)" @add-col="addCol(i, true)" />
           </div>
           <div>
             <button @click="newBanner(true)">Add new banner</button>
@@ -162,6 +164,36 @@ export default {
         let old = this.banners.remix[newIndex];
         this.banners.remix.splice(newIndex, 1, this.banners.remix[index])
         this.banners.remix.splice(index, 1, old)
+      }
+    },
+    addCol: function(index, remix) {
+      if (!remix) {
+        let cols = Math.ceil(this.banners.legendary[index].heroes.length / 4);
+        this.banners.legendary[index].heroes.splice(4*cols, 0, "COLORLESS");
+        this.banners.legendary[index].heroes.splice(3*cols, 0, "GREEN");
+        this.banners.legendary[index].heroes.splice(2*cols, 0, "BLUE");
+        this.banners.legendary[index].heroes.splice(cols, 0, "RED");
+      } else {
+        let cols = Math.ceil(this.banners.remix[index].heroes.length / 4);
+        this.banners.remix[index].heroes.splice(4*cols, 0, "COLORLESS");
+        this.banners.remix[index].heroes.splice(3*cols, 0, "GREEN");
+        this.banners.remix[index].heroes.splice(2*cols, 0, "BLUE");
+        this.banners.remix[index].heroes.splice(cols, 0, "RED");
+      }
+    },
+    deleteCol: function(index, remix) {
+      if (!remix) {
+        let cols = Math.ceil(this.banners.legendary[index].heroes.length / 4);
+        this.banners.legendary[index].heroes.splice(4*cols-1, 1);
+        this.banners.legendary[index].heroes.splice(3*cols-1, 1);
+        this.banners.legendary[index].heroes.splice(2*cols-1, 1);
+        this.banners.legendary[index].heroes.splice(cols-1, 1);
+      } else {
+        let cols = Math.ceil(this.banners.remix[index].heroes.length / 4);
+        this.banners.remix[index].heroes.splice(4*cols-1, 1);
+        this.banners.remix[index].heroes.splice(3*cols-1, 1);
+        this.banners.remix[index].heroes.splice(2*cols-1, 1);
+        this.banners.remix[index].heroes.splice(cols-1, 1);
       }
     }
   }

@@ -6,6 +6,8 @@
       <input v-model="banner.title"/>
       <button @click="$emit('remove-banner')">DELETE BANNER</button>
       <button @click="$emit('move-right')">&#10142;</button>
+      <button @click="$emit('add-col')">ADD COL</button>
+      <button @click="$emit('del-col')">DEL COL</button>
     </div>
     <div class="bannerHeroes">
       <BannerSlot v-bind:key="`${i}-${hero}`" v-for="(hero, i) in banner.heroes" v-bind:hero="heroes[hero]"
