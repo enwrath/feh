@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div :style="cssProps">
     <h2 v-if="!admin">{{banner.title}}</h2>
     <div v-if="admin">
       <button @click="$emit('move-left')">&#129044;</button>
@@ -7,9 +7,9 @@
       <button @click="$emit('remove-banner')">DELETE BANNER</button>
       <button @click="$emit('move-right')">&#10142;</button>
     </div>
-    <div v-bind:class="remix ? 'remixHeroes' : 'bannerHeroes'">
-      <BannerSlot v-bind:key="`${i}-${hero}`" v-for="(hero, i) in banner.heroes" v-bind:hero="heroes[hero]" v-bind:remix="remix"
-      :admin="admin" @change-hero="$emit('change-hero', {slot: i})" />
+    <div class="bannerHeroes">
+      <BannerSlot v-bind:key="`${i}-${hero}`" v-for="(hero, i) in banner.heroes" v-bind:hero="heroes[hero]"
+      :admin="admin" :size="perRow" @change-hero="$emit('change-hero', {slot: i})" />
     </div>
   </div>
 </template>
@@ -25,8 +25,17 @@ export default {
   props: {
     banner: {},
     heroes: {},
-    remix: Boolean,
     admin: Boolean
+  },
+  computed: {
+    perRow() {
+      return Math.ceil(this.banner.heroes.length / 4)
+    },
+    cssProps() {
+      return {
+        '--units-per-row': this.perRow
+      }
+    }
   }
 }
 </script>
@@ -39,32 +48,17 @@ export default {
   flex-wrap: wrap;
   margin:auto;
   font-size: x-small;
-  max-width: 400px;
-}
-.remixHeroes {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin:auto;
-  font-size: x-small;
-  max-width: 266px;
+  max-width: calc(var(--units-per-row) * 133px);
 }
 @media only screen and (min-width: 400px) {
   .bannerHeroes {
-    font-size: small;
-  }
-  .remixHeroes {
     font-size: small;
   }
 }
 @media only screen and (min-width: 1500px) {
   .bannerHeroes {
     font-size: small;
-    max-width: 450px;
-  }
-  .remixHeroes {
-    font-size: small;
-    max-width: 300px;
+    max-width: calc(var(--units-per-row) * 150px);
   }
 }
 </style>

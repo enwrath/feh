@@ -1,5 +1,5 @@
 <template>
-  <div v-bind:class="[remix ? 'remixHero' : 'bannerHero', hero.color]" v-on:click="nextPage" >
+  <div v-bind:class="['bannerHero', hero.color]" v-on:click="nextPage" :style="cssProps">
     <div class="imgDiv">
 
 
@@ -20,8 +20,8 @@ export default {
   },
   props: {
     hero: {},
-    remix: Boolean,
-    admin: Boolean
+    admin: Boolean,
+    size: Number
   },
   data() {
     return {
@@ -35,6 +35,13 @@ export default {
       else {
         this.currPage += 1;
         this.currPage %= 3;
+      }
+    }
+  },
+  computed: {
+    cssProps() {
+      return {
+        '--unit-width': (Math.round((100/this.size) * 100) / 100).toString()+"%"
       }
     }
   }
@@ -58,12 +65,7 @@ export default {
 .bannerHero {
   display: inline-block;
   position: relative;
-  width: 33.33%;
-}
-.remixHero {
-  display: inline-block;
-  position: relative;
-  width: 50%;
+  width: var(--unit-width);
 }
 img {
   max-width: 100%;
