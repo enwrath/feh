@@ -68,7 +68,7 @@
         <li>
           <label for="spB">B Skill SP:</label>
           <select v-model.number="spB" id="spB">
-            <option v-for="n in [300,240,200]" :value="n" :key="`b-${n}`">
+            <option v-for="n in [400,300,240,200]" :value="n" :key="`b-${n}`">
               {{n}}
             </option>
           </select>
@@ -86,7 +86,7 @@
         <li>
           <label for="spSeal">Seal Skill SP:</label>
           <select v-model.number="spSeal" id="spSeal">
-            <option v-for="n in [240,200,160,100]" :value="n" :key="`seal-${n}`">
+            <option v-for="n in [300,240,200,160,100]" :value="n" :key="`seal-${n}`">
               {{n}}
             </option>
           </select>
