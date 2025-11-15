@@ -23,7 +23,7 @@
         <li>
           <label for="bst">BST:</label>
           <select v-model.number="bst" id="bst">
-            <option v-for="n in [220,215,210,205,200,195,190,185,180,175,170,165,160,155,150,145,140]" :value="n" :key="`bst-${n}`">
+            <option v-for="n in [250,245,240,235,230,225,220,215,210,205,200,195,190,185,180,175,170,165,160,155,150,145,140]" :value="n" :key="`bst-${n}`">
               {{n}}
             </option>
           </select>
